@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    @@include('partials/head.html')
+    <title>
+      AxoShop — Магазин цифровых товаров | Донат в игры, Пополнение Steam
+    </title>
+  </head>
+
+  <body>
+    <div class="content-area">
+
+    @@include('partials/nav.html')
+
+      <!-- Рекомендации -->
+
+      <div class="mobile-recommended-categories">
+        <a href="/pages/catalog.html">
+          <img src="/assets/img/steam.png" alt="" />
+          <div class="mobile-recommended-categories-info">
+            <h3>Пополнение Steam</h3>
+            <p>Комиссия от 0%</p>
+          </div>
+        </a>
+
+        <a href="/pages/catalog.html">
+          <img src="/assets/img/xbox.png" alt="" />
+          <div class="mobile-recommended-categories-info">
+            <h3>Консоли&Сервисы</h3>
+            <p>Комиссия от 0%</p>
+          </div>
+        </a>
+
+        <a href="/pages/catalog.html">
+          <img src="/assets/img/mobile-vibration.png" alt="" />
+          <div class="mobile-recommended-categories-info">
+            <h3>Игровая Валюта</h3>
+            <p>Пополняй быстро</p>
+          </div>
+        </a>
+
+        <a href="/pages/catalog.html">
+          <img src="/assets/img/gifts.png" alt="" />
+          <div class="mobile-recommended-categories-info">
+            <h3>Гифты Steam</h3>
+            <p>Недоступные в РФ</p>
+          </div>
+        </a>
+
+        <a href="/pages/catalog.html">
+          <img src="/assets/img/key.png" alt="" />
+          <div class="mobile-recommended-categories-info">
+            <h3>Ключи&Аккаунты</h3>
+            <p>Карты пополнения</p>
+          </div>
+        </a>
+      </div>
+      <!-- Пополнение Стим -->
+
+      <main>
+        <div class="steam">
+          <div class="steam-header">
+            <h2>Пополни аккаунт steam</h2>
+            <svg
+              class="steam-toggle-icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 9L12 15L18 9"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+
+          <div class="drop-down-lists">
+            <div class="input-group">
+              <span class="input-label">Никнейм</span>
+              <input type="text" id="steam_username" placeholder="al8612" />
+            </div>
+
+            <div class="input-group">
+              <span class="input-label">Сумма</span>
+              <input
+                type="number"
+                id="steam_amount_deposit"
+                placeholder="1000"
+                min="100"
+              />
+              <span class="input-error-message">Минимальная сумма пополнения — 100 ₽</span>
+            </div>
+
+            <div class="input-group">
+              <span class="input-label">Валюта пополнения</span>
+              <select id="steam_currency">
+                <option value="RUB" selected>₽</option>
+                <option value="KZT">₸</option>
+                <option value="UAH">₴</option>
+                <option value="EUR">€</option>
+                <option value="USD">$</option>
+              </select>
+            </div>
+
+            <div class="replenish-wrapper">
+              <button id="replenish" disabled>
+                <span>Оплатить</span>
+                <span id="replenish_price">0 ₽</span>
+              </button>
+              <span class="commission-text">Комиссия 8%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Рекомендации -->
+
+        <div class="recommended-categories">
+          <a href="/pages/catalog.html">
+            <img src="/assets/img/steam.png" alt="" />
+            <div class="recommended-categories-info">
+              <h3>Пополнение Steam</h3>
+              <p>Комиссия от 0%</p>
+            </div>
+          </a>
+
+          <a href="/pages/catalog.html">
+            <img src="/assets/img/xbox.png" alt="" />
+            <div class="recommended-categories-info">
+              <h3>Консоли&Сервисы</h3>
+              <p>Комиссия от 0%</p>
+            </div>
+          </a>
+
+          <a href="/pages/catalog.html">
+            <img src="/assets/img/mobile-vibration.png" alt="" />
+            <div class="recommended-categories-info">
+              <h3>Игровая Валюта</h3>
+              <p>Пополняй быстро</p>
+            </div>
+          </a>
+
+          <a href="/pages/catalog.html">
+            <img src="/assets/img/gifts.png" alt="" />
+            <div class="recommended-categories-info">
+              <h3>Гифты Steam</h3>
+              <p>Недоступные в РФ</p>
+            </div>
+          </a>
+
+          <a href="/pages/catalog.html">
+            <img src="/assets/img/key.png" alt="" />
+            <div class="recommended-categories-info">
+              <h3>Ключи&Аккаунты</h3>
+              <p>Карты пополнения</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Для тебя -->
+
+        <section class="products-section">
+          <div class="section-header">
+            <h2>Для тебя <span>собрали классную подборку</span></h2>
+            <a href="/pages/catalog.html" class="show-all">развернуть &rarr;</a>
+          </div>
+
+          <div class="products-grid">
+            <a href="/pages/product-page.html?id=1" class="product-card">
+              <div class="card-image-wrapper">
+                <span class="card-label">Скидка 10%</span>
+                <button
+                  class="card-fav"
+                  aria-label="В избранное"
+                  data-product-id="1"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </button>
+                <img src="/assets/img/обложка.png" alt="Товар" />
+              </div>
+
+              <div class="card-info">
+                <div class="card-price">369 ₽</div>
+                <div class="card-title">
+                  подписка 1 месяц adobe creative cloud
+                </div>
+                <div class="card-rating">
+                  <span class="rating-value">4.7</span>
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                      fill="black"
+                    />
+                  </svg>
+                  <span class="rating-count">35 отзывов</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="/pages/product-page.html?id=2" class="product-card">
+              <div class="card-image-wrapper">
+                <button
+                  class="card-fav active"
+                  aria-label="В избранное"
+                  data-product-id="2"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </button>
+                <img src="/assets/img/обложка.png" alt="Товар" />
+              </div>
+
+              <div class="card-info">
+                <div class="card-price">369 ₽</div>
+                <div class="card-title">
+                  подписка 1 месяц adobe creative cloud
+                </div>
+                <div class="card-rating">
+                  <span class="rating-value">4.7</span>
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                      fill="black"
+                    />
+                  </svg>
+                  <span class="rating-count">35 отзывов</span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <section class="products-section">
+            <div class="section-header">
+              <h2>Категории<span>тут ты можешь увидеть всё</span></h2>
+              <a href="/pages/catalog.html" class="show-all">развернуть &rarr;</a>
+            </div>
+
+            <div class="products-grid">
+              <a href="/pages/products.html?id=cat-1" class="product-card category-card">
+                <div class="card-image-wrapper">
+                  <button
+                    class="card-fav"
+                    aria-label="В избранное"
+                    data-product-id="cat-1"
+                  >
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                      />
+                    </svg>
+                  </button>
+                  <img
+                    src="/assets/img/обложка категории.png"
+                    alt="Категория"
+                  />
+                </div>
+
+                <div class="card-info">
+                  <div class="card-title">Название категории</div>
+                </div>
+              </a>
+            </div>
+          </section>
+        </section>
+      </main>
+
+      <!-- === PAYMENT MODAL START === -->
+      <div class="modal-overlay" id="paymentOverlay">
+        <div class="payment-modal" id="paymentMainModal">
+          <div class="pm-header">
+            <div class="pm-title">Оплата</div>
+            <button class="pm-close-btn" id="pmCloseBtn" aria-label="Закрыть">
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 21 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.46582 5.21875L10.501 9.25391L14.5361 5.21875H17.6748L12.0703 10.8232L17.0254 15.7783H13.8877L10.501 12.3916L7.11523 15.7783H3.97754L8.93262 10.8232L3.32812 5.21875H6.46582Z"
+                  fill="black"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="pm-amount" id="modal_total_price">0 ₽</div>
+
+          <div class="pm-methods-section">
+            <div class="pm-label">способ</div>
+            <div class="pm-tabs">
+              <button class="pm-tab-btn active" data-method="card">
+                карта
+              </button>
+              <button class="pm-tab-btn" data-method="sbp">сбп</button>
+              <button class="pm-tab-btn" data-method="wallet">кошелёк</button>
+              <!-- <button class="pm-tab-btn" data-method="crypto">крипта</button> -->
+            </div>
+          </div>
+
+          <div class="pm-card-fields" id="cardFields">
+            <div class="pm-input-wrapper">
+              <label class="pm-input-label">НОМЕР КАРТЫ</label>
+              <input
+                type="text"
+                class="pm-input"
+                placeholder="0000 0000 0000 0000"
+              />
+            </div>
+
+            <div class="pm-row">
+              <div class="pm-input-wrapper">
+                <label class="pm-input-label">срок действия (месяц/год)</label>
+                <input type="text" class="pm-input" placeholder="01/27" />
+              </div>
+              <div class="pm-input-wrapper">
+                <label class="pm-input-label">CVV/CVC-код</label>
+                <input type="text" class="pm-input" placeholder="001" />
+              </div>
+            </div>
+
+            <div class="pm-input-wrapper">
+              <label class="pm-input-label">владелец</label>
+              <input type="text" class="pm-input" placeholder="Фамилия имя" />
+            </div>
+          </div>
+
+          <div class="pm-footer">
+            <button class="pm-pay-btn">оплатить</button>
+          </div>
+        </div>
+
+        <!-- ============================================ -->
+        <!-- ОРИГИНАЛЬНОЕ МОДАЛЬНОЕ ОКНО "ТРЕБУЕТСЯ АВТОРИЗАЦИЯ" -->
+        <!-- Создано на главной странице (index.html) -->
+        <!-- Используется для блокировки действий неавторизованных пользователей -->
+        <!-- ============================================ -->
+        <!-- === НАЧАЛО: ОКНО ОТКАЗА В ДЕЙСТВИИ (БЛОКИРОВКА БЕЗ АВТОРИЗАЦИИ) === -->
+        <div class="payment-modal auth-required-modal" id="authRequiredModal" style="display: none;">
+          <div class="auth-req-header">
+            <div class="auth-req-title">Требуется авторизация</div>
+          </div>
+          <div class="auth-req-body">
+            <p class="auth-req-text">Для выполнения этого действия необходимо<br>войти в аккаунт.</p>
+          </div>
+          <div class="auth-req-actions">
+            <button class="auth-req-btn auth-req-btn--outline" id="authReqCancel">отмена</button>
+            <a href="/pages/authorization.html" class="auth-req-btn auth-req-btn--filled">войти</a>
+          </div>
+        </div>
+        <!-- === КОНЕЦ: ОКНО ОТКАЗА В ДЕЙСТВИИ === -->
+        <!-- ============================================ -->
+      </div>
+      <!-- === PAYMENT MODAL END === -->
+
+      <!-- === CAPTCHA MODAL START === -->
+      <div id="captchaOverlay" class="captcha-overlay">
+        <div class="captcha-box">
+          <div id="recaptcha"></div>
+        </div>
+      </div>
+      <!-- === CAPTCHA MODAL END === -->
+    </div>
+    <!-- Конец контейнера -->
+    <!-- Футер -->
+
+    @@include('partials/footer.html')
+
+    <script src="/js/toggleFavorite.js"></script>
+    <script src="/js/updateNav.js"></script>
+    <script src="/js/modal.js"></script>
+    <script src="/js/payments.js"></script>
+    <script src="/js/steamcalc.js"></script>
+    <script src="/js/loadCurrencies.js"></script>
+    <script type="module" src="/js/homeSearch.js"></script>
+    <!-- Security: CSP should allow 'https://www.google.com/recaptcha/' and 'https://www.gstatic.com/recaptcha/' -->
+    <script src="https://www.google.com/recaptcha/api.js?onload=initRecaptcha&render=explicit" async defer></script>
+  </body>
+</html>

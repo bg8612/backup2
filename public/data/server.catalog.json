@@ -1,0 +1,3332 @@
+[
+  {
+    "id": 1101,
+    "name": "Steam Gift",
+    "url": "https://files.axoshop.ru/files/category/481b18d02c544553b3f75554e09936fe.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:44.000Z",
+    "updated_at": "2026-02-28T22:28:31.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1102,
+    "name": "PlayStation",
+    "url": "http://files.axoshop.ru/files/category/415cefea27c74eb183611bc3841aa9af.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:45.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1103,
+    "name": "Google Play",
+    "url": "https://files.axoshop.ru/files/category/e680e661a8c5487d875c8a35edf13a66.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:47.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1104,
+    "name": "iTunes",
+    "url": "https://files.axoshop.ru/files/category/c9384fd5e6a94e3e843f09af2fcb8760.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:47.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1105,
+    "name": "Netflix",
+    "url": "https://files.axoshop.ru/files/category/ee28754c2cfb4de6a3103c8bf618718c.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:47.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1106,
+    "name": "Spotify",
+    "url": "https://files.axoshop.ru/files/category/e5e97f80675d4a93ba00ceab3570986e.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:48.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1107,
+    "name": "Razer Gold",
+    "url": "https://files.axoshop.ru/files/category/3a41cc673ea14fbab2bc680b07305c99.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:48.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1108,
+    "name": "Amazon",
+    "url": "https://files.axoshop.ru/files/category/3a2ee2c941604e46a230403e2dada872.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:49.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1109,
+    "name": "Brawl Stars",
+    "url": "https://files.axoshop.ru/files/category/759e943c879e4442b20e43074381fce1.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:49.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1110,
+    "name": "Clash of Clans",
+    "url": "http://files.axoshop.ru/files/category/7e3666eb441349de96a5db4699263478.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:49.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1111,
+    "name": "Garena Free Fire",
+    "url": "https://files.axoshop.ru/files/category/5177a3d6ca8d4049a9b0873b2f595661.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:50.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1112,
+    "name": "Clash Royale",
+    "url": "http://files.axoshop.ru/files/category/f2a2a30aa1494b41adc89b1240629f04.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:50.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1114,
+    "name": "Stumble Guys",
+    "url": "http://files.axoshop.ru/files/category/491f59fbcb8a47a19c87706bc05335fe.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:51.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1115,
+    "name": "League of Legends",
+    "url": "http://files.axoshop.ru/files/category/542ebf5747324dcf81456264d83c6fa5.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:51.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1116,
+    "name": "Valorant",
+    "url": "http://files.axoshop.ru/files/category/76c256bf04bb49f7ba475cc473aa0197.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:52.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1117,
+    "name": "Call of Duty: Mobile",
+    "url": "http://files.axoshop.ru/files/category/5770d2f5350748bbab1c7ee140515a42.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:52.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1118,
+    "name": "PUBG Mobile",
+    "url": "http://files.axoshop.ru/files/category/f49bb0f0b86649de8783eb7013bdaff2.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:52.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1119,
+    "name": "Hearthstone",
+    "url": "http://files.axoshop.ru/files/category/0a9e5ce0fe3643048e570378127497c6.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:53.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1120,
+    "name": "Apex Legends",
+    "url": "http://files.axoshop.ru/files/category/f3144d5a6fa54dc793140fea40018fd6.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:53.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1121,
+    "name": "Apex Legends Mobile",
+    "url": "https://files.axoshop.ru/files/category/2dfc02f8a98b49c2a174643f1b265ca7.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:53.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1122,
+    "name": "PUBG: New State",
+    "url": "http://files.axoshop.ru/files/category/a22c81ce7644415e81a8224f1a4432b0.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:53.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1123,
+    "name": "Twitch",
+    "url": "https://files.axoshop.ru/files/category/b11c6e7ed53a438f93db78f5f32ae373.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:54.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1125,
+    "name": "Cyberpunk 2077",
+    "url": "https://files.axoshop.ru/files/category/23b9125d1b6a452ca8db4b2941c0f83f.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:55.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1126,
+    "name": "Meta Quest",
+    "url": "http://files.axoshop.ru/files/category/276d85c3564d46eba188d615c34081bc.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:16:56.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1140,
+    "name": "Sausage Man",
+    "url": "http://files.axoshop.ru/files/category/c2c2d1da43564e5d9db77eacb72d08db.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:00.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1141,
+    "name": "State of Survival",
+    "url": "http://files.axoshop.ru/files/category/c2184708cec548699c10cce232703b28.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:00.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1142,
+    "name": "StarMaker",
+    "url": "http://files.axoshop.ru/files/category/9bee84ce2e77443dac242c9850da4055.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:01.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1143,
+    "name": "Starfall Fantasy: Neverland",
+    "url": "http://files.axoshop.ru/files/category/fd5c3d3fc4a441b0928d30835c1412f8.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:01.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1144,
+    "name": "Sugar Live",
+    "url": "http://files.axoshop.ru/files/category/aa2da69d845945faba74496fcb494841.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:01.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1146,
+    "name": "Super SUS",
+    "url": "https://files.axoshop.ru/files/category/ba3c4b5ededa4b01915d1ab018998129.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:02.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1147,
+    "name": "Sword of Fire and Ice",
+    "url": "http://files.axoshop.ru/files/category/1a42e4699d634f31b1c977c963f9a1e7.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:02.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1148,
+    "name": "Sword of Justice",
+    "url": "http://files.axoshop.ru/files/category/0dd4ada3cfca412092487c69a740cd45.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:03.000Z",
+    "updated_at": "2026-02-26T21:26:16.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1149,
+    "name": "T3 Arena",
+    "url": "http://files.axoshop.ru/files/category/6390ea32bbf64cd8b5ef4f24971e3d5b.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:03.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1152,
+    "name": "Tank Company",
+    "url": "https://files.axoshop.ru/files/category/b7f639b40dee4027b8291d58cd74eb01.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:04.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1153,
+    "name": "Tarisland",
+    "url": "https://files.axoshop.ru/files/category/dbdf621c9bd5489d8dd0850adeb6c98d.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:04.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1154,
+    "name": "Teamfight Tactics Mobile",
+    "url": "https://files.axoshop.ru/files/category/bfde6b0adda6485abda01baa5b0ea5d3.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:04.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1156,
+    "name": "The Ants: Underground Kingdom",
+    "url": "http://files.axoshop.ru/files/category/3bbe331875984abbbc6e5983eeaae4f1.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:05.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1158,
+    "name": "The Legend of Neverland",
+    "url": "http://files.axoshop.ru/files/category/36aed88ac7c047b386bf54d31137367a.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:05.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1159,
+    "name": "The Lord of the Rings: Rise to War",
+    "url": "http://files.axoshop.ru/files/category/afd1ba182396484fa7b413b9fb573eef.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:06.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1160,
+    "name": "The Moonlit Oath",
+    "url": "https://files.axoshop.ru/files/category/14db54d33a1e45739a09fbca2cd739c4.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:06.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1162,
+    "name": "Tokyo",
+    "url": "http://files.axoshop.ru/files/category/8f26ac6b44114d7f9dd1a1c2025dfa59.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:07.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1164,
+    "name": "Tom and Jerry: Chase",
+    "url": "http://files.axoshop.ru/files/category/779efb9d3551407584379508779a4199.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:07.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1165,
+    "name": "Top Eleven Be Football Manager",
+    "url": "http://files.axoshop.ru/files/category/483595c952194213b26e3d058e85720d.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:07.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1166,
+    "name": "TopTop: Games&Chat",
+    "url": "http://files.axoshop.ru/files/category/028fe39e38424adeb9abdce7ddd512bb.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:07.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1167,
+    "name": "Torchlight: Infinite",
+    "url": "https://files.axoshop.ru/files/category/bdd4a8a3a1014b27ad4183ea13a177fe.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:08.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1168,
+    "name": "Tower Brawl",
+    "url": "http://files.axoshop.ru/files/category/06c63c3215cd4183bbde78e95912f46b.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:08.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1169,
+    "name": "Tower of Fantasy",
+    "url": "http://files.axoshop.ru/files/category/42edbd39348d4fdaa66381fa5f0f49ee.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:08.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1170,
+    "name": "Ulala: Idle Adventure",
+    "url": "http://files.axoshop.ru/files/category/6a15d42edeb2474d8f143612566bcccc.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:08.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1171,
+    "name": "Undawn",
+    "url": "http://files.axoshop.ru/files/category/0468f9c35f3a422e8ca0a91603a9cca3.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:09.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1177,
+    "name": "War Planet Online",
+    "url": "http://files.axoshop.ru/files/category/075a3c34c17d40f28ff4478466eb9bfa.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:11.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1178,
+    "name": "Warborne Above Ashes",
+    "url": "https://files.axoshop.ru/uploads/83c5ce2d584e47f69146b78ad38cf8fa.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:11.000Z",
+    "updated_at": "2026-02-27T09:35:00.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1180,
+    "name": "Wartune Ultra",
+    "url": "https://files.axoshop.ru/files/category/c2a7dd9b5aec412fb2fbfe96eaa7b883.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:12.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1181,
+    "name": "Watcher of Realms",
+    "url": "http://files.axoshop.ru/files/category/e4275d8011af4a85bcb6f6e39c1de24f.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:12.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1182,
+    "name": "WeSing",
+    "url": "https://files.axoshop.ru/files/category/665191d0ca7a48f78a1d6edacc5aa67f.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:12.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1185,
+    "name": "Where Winds Meet",
+    "url": "http://files.axoshop.ru/files/category/84dd3b9d84a14cc2b901044bf488c8b3.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:13.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1187,
+    "name": "Whiteout Survival",
+    "url": "http://files.axoshop.ru/files/category/17a8953b8439407b85d66706d60cba2f.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:14.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1194,
+    "name": "ZEPETO",
+    "url": "http://files.axoshop.ru/files/category/d566df87d1f94eb4ad5a878da8360906.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:16.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1196,
+    "name": "8 Ball Pool",
+    "url": "http://files.axoshop.ru/files/category/4f74ad59274b4c4ca5001fb5ffe3b01d.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:17.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1197,
+    "name": "9Play",
+    "url": "https://files.axoshop.ru/files/category/c456468b40e04b2f9abc88afdfa76f11.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:17.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1198,
+    "name": "A-Cash",
+    "url": "https://files.axoshop.ru/files/category/a15e6b8f20564dab93469f4519c51b1b.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:17.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1199,
+    "name": "AFK Journey",
+    "url": "https://files.axoshop.ru/files/category/35ed132276d5454cb59ec8fe9518f03d.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:18.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1200,
+    "name": "APPOTA",
+    "url": "https://files.axoshop.ru/files/category/35e3660afd4144cfbdeeea99f64733af.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:18.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1201,
+    "name": "Ace Racer",
+    "url": "https://files.axoshop.ru/files/category/e13db5fa9eeb4fc1b0fde70cbf69413d.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:18.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1202,
+    "name": "Acecraft",
+    "url": "https://files.axoshop.ru/files/category/df327785be0c415ab8e0c91a65c08a0e.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:19.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1203,
+    "name": "Aether Gazer",
+    "url": "https://files.axoshop.ru/files/category/a59b0de98e6d40ec9d0217855d990b59.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:19.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1204,
+    "name": "Age of Empires Mobile",
+    "url": "https://files.axoshop.ru/files/category/cc2b3768889841379835c16b4043a428.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:19.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1205,
+    "name": "Age of Legends",
+    "url": "https://files.axoshop.ru/files/category/99a5599dd4124d45b9bed4656df00756.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:20.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1206,
+    "name": "Alchemy Stars",
+    "url": "https://files.axoshop.ru/files/category/def48f5d9f964862a0f6a37937fccf4d.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:20.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1208,
+    "name": "Arena Breakout",
+    "url": "https://files.axoshop.ru/files/category/86fc763a8afa4634be6cce5bf7252b60.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:21.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1209,
+    "name": "Arena Breakout: Infinite",
+    "url": "https://files.axoshop.ru/files/category/a607455e34154945aead1c3f8d63f63d.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:21.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1211,
+    "name": "Asphalt 9",
+    "url": "https://files.axoshop.ru/files/category/3b4375bfeb324508845c3d1643b60213.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:22.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1212,
+    "name": "Astra: Knights of Veda",
+    "url": "https://files.axoshop.ru/files/category/889362ad1001437e8c34c1d9dd769b03.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:22.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1213,
+    "name": "Astral Guardians: Cyber Fantasy",
+    "url": "https://files.axoshop.ru/files/category/cbdea11fea6f47768bb220f9cb599f38.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:22.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1214,
+    "name": "BIGO LIVE",
+    "url": "https://files.axoshop.ru/files/category/51c01488487745e290d93280267f319e.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:23.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1215,
+    "name": "BLEACH Mobile 3D",
+    "url": "https://files.axoshop.ru/files/category/84597218a6e94ebcad805a0faa730662.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:23.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1216,
+    "name": "BLEACH Soul Resonance",
+    "url": "https://files.axoshop.ru/files/category/bb4178dc07e54208aeac9dc51fac81c4.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:23.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1217,
+    "name": "Badlanders",
+    "url": "https://files.axoshop.ru/files/category/b526adc8706f48489f21f1a74e5d6a7e.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:23.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1218,
+    "name": "Ballistic Hero VNG",
+    "url": "https://files.axoshop.ru/files/category/e2a9e4e3511d49428cbcd7e93f580c3c.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:23.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1219,
+    "name": "Banishers: Faiths Entwined",
+    "url": "https://files.axoshop.ru/files/category/ed4390b8d8f44f16a4de3c6fbc5c7736.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:24.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1220,
+    "name": "Be The King",
+    "url": "https://files.axoshop.ru/files/category/80c1d43f31a24f15b997c7c5bcc47c6a.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:24.000Z",
+    "updated_at": "2026-02-26T21:25:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1221,
+    "name": "Blade X: Odyssey of Heroes",
+    "url": "https://files.axoshop.ru/files/category/6fa5d314c0c446a6a7ff1fb4804c4a92.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:24.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1222,
+    "name": "Blockman Go",
+    "url": "https://files.axoshop.ru/files/category/e8071a1d83664103aac6ab617b5caba8.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:25.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1223,
+    "name": "Blood Strike",
+    "url": "https://files.axoshop.ru/files/category/36a48ac186494025b110d52a13718968.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:25.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1247,
+    "name": "Coins Mania – Master of Coin",
+    "url": "https://files.axoshop.ru/files/category/16fe6de0a92a41cf80036aa5d2e28ed3.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:26.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1252,
+    "name": "Delta Force",
+    "url": "https://files.axoshop.ru/files/category/8ba849c90bc94896806c357cd4360385.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:26.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1253,
+    "name": "Destiny Rising",
+    "url": "https://files.axoshop.ru/files/category/56447c3f698e4250aa64b6b6b6cc0ba3.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:27.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1257,
+    "name": "Dragon Nest 2: Evolution",
+    "url": "https://files.axoshop.ru/files/category/b478e656a796478d8cca0d46c5191f0e.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:27.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1258,
+    "name": "Dragon Nest M Classic",
+    "url": "https://files.axoshop.ru/files/category/208a621019084e0eb011cfb41e91056c.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:27.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1259,
+    "name": "Draconia Saga",
+    "url": "https://files.axoshop.ru/uploads/a4dcc805fb78437e9dae03458b830506.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:27.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1260,
+    "name": "Dragonheir: Silent Gods",
+    "url": "https://files.axoshop.ru/files/category/fc13ce1784f14d11a978534344b571a6.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:28.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1261,
+    "name": "Echocalypse",
+    "url": "https://files.axoshop.ru/files/category/99a07502b4fb4d7ebbeb0ebf69051c99.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:28.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1263,
+    "name": "Elden Ring",
+    "url": "https://files.axoshop.ru/uploads/8bdcee39efd6466d85c64ca0db5203df.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:28.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1266,
+    "name": "Era of Celestials",
+    "url": "https://files.axoshop.ru/files/category/a3c05a8d98734edba7b8efb09f6731b0.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:29.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1272,
+    "name": "Farlight 84",
+    "url": "https://files.axoshop.ru/files/category/ba4e83424f0b44a38ae7d15ce86d7997.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:29.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1273,
+    "name": "Fate/Grand Order",
+    "url": "https://files.axoshop.ru/files/category/1560d288754f471784d67773f9ab660e.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:29.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1274,
+    "name": "FC Mobile",
+    "url": "https://files.axoshop.ru/uploads/abed58ec284d499499e53a63424ba685.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:30.000Z",
+    "updated_at": "2026-02-27T09:36:27.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1284,
+    "name": "Game of Thrones: Conquest™",
+    "url": "https://files.axoshop.ru/files/category/a3a3b0735ebf41c69caf4c7bafe51e0d.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:30.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1285,
+    "name": "Garena Black Clover M",
+    "url": "https://files.axoshop.ru/files/category/2e85a25a9b6d4f76b5458073fd89e079.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:31.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1286,
+    "name": "Garena Contra Returns",
+    "url": "https://files.axoshop.ru/files/category/f4c71fd286e54ba5a78164e978c6c322.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:31.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1287,
+    "name": "Garena Delta Force",
+    "url": "https://files.axoshop.ru/files/category/55448ec045e6435eacc5d3e9c6095cdc.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:31.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1289,
+    "name": "Garena Speed Drifters",
+    "url": "https://files.axoshop.ru/files/category/e6743cc7e6ea4bf08afaaf7833a46682.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:32.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1290,
+    "name": "Garena Undawn",
+    "url": "https://files.axoshop.ru/files/category/cbc89fbe0a81496382e2cbe77fd1f30f.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:32.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1292,
+    "name": "Goddess of Victory: NIKKE",
+    "url": "https://files.axoshop.ru/files/category/3ec4bc2bb6f249da880ef0da66ec516c.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:32.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1295,
+    "name": "HAIKYU!! FLY HIGH",
+    "url": "https://files.axoshop.ru/files/category/1d26c3a659674df88729487dea0fe5f9.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:33.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1296,
+    "name": "Hago",
+    "url": "https://files.axoshop.ru/files/category/18fdb58e9a4d47d5b24827eab86d6c60.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:33.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1298,
+    "name": "Harry Potter: Magic Awakened™",
+    "url": "https://files.axoshop.ru/files/category/0e90a4205c13444ea0a63ff11f68f100.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:34.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1299,
+    "name": "Hatsune Miku: Colorful Stage",
+    "url": "https://files.axoshop.ru/files/category/c24799229dbe49b2a90cc52856e40807.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:34.000Z",
+    "updated_at": "2026-02-26T21:25:43.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1300,
+    "name": "Hay Day",
+    "url": "https://files.axoshop.ru/files/category/c2addbe7c7064da38750a42b42ccad28.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:34.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1301,
+    "name": "Heaven Burns Red",
+    "url": "https://files.axoshop.ru/files/category/568b1230e4074cb3b76e79b0f194b857.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:35.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1303,
+    "name": "HeeSay",
+    "url": "https://files.axoshop.ru/files/category/949880a9a4604dd3a51a18137a9a9d43.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:35.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1304,
+    "name": "Hello Cafe: Dream Cafe",
+    "url": "https://files.axoshop.ru/files/category/38664b248d6a44e0b48d30d1a18f876b.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:35.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1310,
+    "name": "Honor of Kings",
+    "url": "https://files.axoshop.ru/files/category/59d93ba21dd94b1d992a26cbb83c0d97.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:37.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1315,
+    "name": "Identity V",
+    "url": "https://files.axoshop.ru/files/category/51c0cc31330544908dc8866092d1ed0e.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:38.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1319,
+    "name": "Infinite Borders",
+    "url": "https://files.axoshop.ru/files/category/841c6d0ab5644e8ebd81ad8925bb78a4.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:39.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1320,
+    "name": "Infinite Lagrange",
+    "url": "https://files.axoshop.ru/files/category/cf30a5e3e6f84f3f8b16b659b1e873e2.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:39.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1331,
+    "name": "Kingdom Go!",
+    "url": "https://files.axoshop.ru/files/category/de4c1d7575a6417f8f61251582dca3bf.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:43.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1332,
+    "name": "Knights of Valour",
+    "url": "https://files.axoshop.ru/files/category/45e205996acd4d8694f75c56c249dbae.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:43.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1333,
+    "name": "Knives Out",
+    "url": "https://files.axoshop.ru/files/category/5b2dbb6bf94c481e8d8570942cc1e141.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:43.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1334,
+    "name": "Land of Empires: Immortal",
+    "url": "https://files.axoshop.ru/files/category/ed6d5430697040888b57098a07278e51.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:43.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1335,
+    "name": "Langrisser SEA",
+    "url": "https://files.axoshop.ru/files/category/ad82c305bd48432d94a94cfba963e238.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:44.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1337,
+    "name": "Legacy of Discord - FuriousWings",
+    "url": "https://files.axoshop.ru/files/category/23e95b0cddba4171b03332705918e1cd.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:44.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1338,
+    "name": "Legends of Runeterra",
+    "url": "https://files.axoshop.ru/files/category/7ab12e6af979407d9181cb1ead1a1803.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:44.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1339,
+    "name": "LifeAfter",
+    "url": "https://files.axoshop.ru/files/category/a228220a9a7a451d99239dc36fe98eee.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:45.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1340,
+    "name": "Light of Thel: Glory of Cepheus",
+    "url": "https://files.axoshop.ru/files/category/6dbb17dccc5c43db976735d33408d3b7.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:45.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1341,
+    "name": "Light of Thel: New Era",
+    "url": "https://files.axoshop.ru/files/category/015b57eed1ce437a9a54a7a81d9af0eb.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:45.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1342,
+    "name": "Likee",
+    "url": "https://files.axoshop.ru/files/category/8c22cba21b2b49778793b8b5d28213cc.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:45.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1343,
+    "name": "Lineage2M",
+    "url": "https://files.axoshop.ru/files/category/cc5231c487954a9d817ebb198167f3ef.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:46.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1344,
+    "name": "Lita",
+    "url": "https://files.axoshop.ru/files/category/682507f8c1e2447c8fea4f8bd3234eb5.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:46.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1345,
+    "name": "LivU",
+    "url": "https://files.axoshop.ru/files/category/cb01c3dfe8b2461e93d7ea8112f56e93.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:46.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1346,
+    "name": "Lord of Nazarick",
+    "url": "https://files.axoshop.ru/files/category/23f19d9563cb4438b692bec0acb62fe2.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:47.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1347,
+    "name": "Lords Mobile",
+    "url": "https://files.axoshop.ru/files/category/770051c9602642cf8f20802b923e4abd.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:47.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1348,
+    "name": "Lost Light",
+    "url": "https://files.axoshop.ru/files/category/611aad896cc241af90d38f71bfe12acd.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:47.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1349,
+    "name": "Love Nikki",
+    "url": "https://files.axoshop.ru/files/category/10dd7cd2ca85476a8b7ca85656db5688.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:47.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1350,
+    "name": "Love and Deepspace",
+    "url": "https://files.axoshop.ru/files/category/31f4b1f337b84c6ebc65deb1d031d917.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:48.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1351,
+    "name": "Lovebrush Chronicles",
+    "url": "https://files.axoshop.ru/files/category/526795b62e234ca6b797a5d651407596.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:48.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1352,
+    "name": "Ludo Club",
+    "url": "https://files.axoshop.ru/files/category/f10807321fb449e0bf47988a3004afce.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:48.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1353,
+    "name": "Lumia Saga Global",
+    "url": "https://files.axoshop.ru/files/category/385b87b9ab054faea08cdff1d966a40f.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:49.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1354,
+    "name": "Lumia Saga SEA",
+    "url": "https://files.axoshop.ru/files/category/63177d9855fc46b4b50d5ff0834e4e89.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:49.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1355,
+    "name": "Lunathorn",
+    "url": "https://files.axoshop.ru/files/category/dd49e2c4c0d845f49c0c742fde06f297.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:49.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1356,
+    "name": "MARVEL",
+    "url": "https://files.axoshop.ru/files/category/79161b7698d143df9333c6764c21f802.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:49.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1360,
+    "name": "MLiveU",
+    "url": "https://files.axoshop.ru/uploads/2d8ab216f99c41d7a4cb82e68382149d.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:50.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1361,
+    "name": "MU",
+    "url": "https://files.axoshop.ru/uploads/56ebb6370ba34fef8c912c8b3bf61dda.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:50.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1365,
+    "name": "Magic Chess: Go Go",
+    "url": "https://files.axoshop.ru/uploads/84d75e5707bf4f37a7cd39732e751707.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:50.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1366,
+    "name": "MangaToon - Read Comics Novel",
+    "url": "https://files.axoshop.ru/uploads/6b8173607af4481192898d1ea4231631.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:50.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1367,
+    "name": "Mango Live",
+    "url": "https://files.axoshop.ru/uploads/6ab336361e68487686b0268d73a21ef0.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:51.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1368,
+    "name": "MapleStory",
+    "url": "https://files.axoshop.ru/uploads/654ae69309524882b0d359341a567db1.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:51.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1372,
+    "name": "Mecha BREAK",
+    "url": "https://files.axoshop.ru/uploads/af129e7493884e68bb12151b53ad2ffc.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:51.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1374,
+    "name": "Meoo",
+    "url": "https://files.axoshop.ru/uploads/9350567e977e4a8fb1c2b95ed7c5e1e6.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:52.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1375,
+    "name": "Metal Slug: Awakening",
+    "url": "https://files.axoshop.ru/uploads/d8987cc021954018b6fbfcd9f0174263.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:52.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1376,
+    "name": "Miko Era: Twelve Myths",
+    "url": "https://files.axoshop.ru/uploads/bc070ac7d6e2403a856d3967b51184af.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:52.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1377,
+    "name": "Mirage",
+    "url": "https://files.axoshop.ru/uploads/2e9c840e16df42cfb01da87cbf2df0ec.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:53.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1379,
+    "name": "Modern Warships: Naval Battles",
+    "url": "https://files.axoshop.ru/uploads/3a8f2eea0f5040acb16de589c8aea2b5.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:53.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1380,
+    "name": "Monkey King: Arena of Heroes",
+    "url": "https://files.axoshop.ru/uploads/bd6e1886677246fda2b94c6d4596fbf9.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:53.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1381,
+    "name": "Moonlight Blade M",
+    "url": "https://files.axoshop.ru/uploads/0b12a2af7ef243ff95a61159f53e87b9.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:54.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1382,
+    "name": "My Heroes",
+    "url": "https://files.axoshop.ru/uploads/6a91e26752e6415eb08f2e4246ec2988.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:54.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1383,
+    "name": "Naruto: SlugfestX",
+    "url": "https://files.axoshop.ru/uploads/50a9e45eb13a41dabad6ae4959adfe53.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:54.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1384,
+    "name": "Never After",
+    "url": "https://files.axoshop.ru/uploads/4389cd6476724b088c7b6e45a589b077.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:55.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1385,
+    "name": "Nexon Game Card",
+    "url": "https://files.axoshop.ru/uploads/2a195811bb844ea0b505190d34f7ecae.jpeg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:55.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1386,
+    "name": "Nimo TV",
+    "url": "https://files.axoshop.ru/uploads/656dd6879ca34041bfcee322da4a1a61.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:55.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1387,
+    "name": "Nova Fantasy",
+    "url": "https://files.axoshop.ru/uploads/701755fab7a1449189017c73817a7219.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:56.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1388,
+    "name": "Octopath Traveler: CotC",
+    "url": "https://files.axoshop.ru/uploads/11d15b72b5b7457c8d550683619e275e.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:56.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1389,
+    "name": "Omega Legends",
+    "url": "https://files.axoshop.ru/uploads/3c92c0cd06b5447b83b465b692d84cac.jpeg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:56.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1391,
+    "name": "One Punch Man: The Strongest",
+    "url": "https://files.axoshop.ru/uploads/0f8a6310d683410498d83e1ea896b365.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:57.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1392,
+    "name": "Onmyo Hyakki Monogatari GO",
+    "url": "https://files.axoshop.ru/uploads/cfa6e7b16c0b42e9a89dd78246792716.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:57.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1393,
+    "name": "Onmyoji Arena",
+    "url": "https://files.axoshop.ru/uploads/89f8163d8cd14ea6b76f387584ede7e6.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:57.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1394,
+    "name": "Overmortal",
+    "url": "https://files.axoshop.ru/uploads/54ea1f483f574a9ea47129c012f6510e.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:58.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1395,
+    "name": "Path to Nowhere",
+    "url": "https://files.axoshop.ru/uploads/a213248f24ba42b1a453c2f31c5630fc.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:58.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1396,
+    "name": "Paw Tales: Eternal Bond",
+    "url": "https://files.axoshop.ru/uploads/dab8b0bfb6c44f93b524ec8f9c86e5ee.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:58.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1397,
+    "name": "Perfect World Mobile",
+    "url": "https://files.axoshop.ru/uploads/988ff66eaa9b4fcea15bc42da7b2ee50.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:59.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1398,
+    "name": "Perfect World W",
+    "url": "https://files.axoshop.ru/uploads/0fa4eb8e7e19408eaae6568971f9bcdd.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:59.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1399,
+    "name": "Persona 5 - The Phantom X",
+    "url": "https://files.axoshop.ru/uploads/2c52a9b8d70343b0b44c82d5517a81cf.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:59.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1400,
+    "name": "Phantasy Star Online 2 New Genesis",
+    "url": "https://files.axoshop.ru/uploads/2a541eec6aff4cfea2d6bc35462d224e.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:17:59.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1401,
+    "name": "Pocket Luna",
+    "url": "https://files.axoshop.ru/uploads/c2b597e51d154360a2e3f1da1f4ad1b7.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:00.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1402,
+    "name": "Poppo Live",
+    "url": "https://files.axoshop.ru/uploads/d9b39a46d90042129ad274c65b442a85.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:00.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1403,
+    "name": "Punishing: Gray Raven",
+    "url": "https://files.axoshop.ru/uploads/d0c17be45e5341d6b7cb8b4fd2758a78.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:00.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1404,
+    "name": "Puzzles & Survival",
+    "url": "https://files.axoshop.ru/uploads/5c8fd60fea7441dbb8de239eae4484e9.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:00.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1405,
+    "name": "Racing Master",
+    "url": "https://files.axoshop.ru/uploads/41488b15860544e6b9584e5cafd89e99.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:01.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1406,
+    "name": "Ragnarok",
+    "url": "https://files.axoshop.ru/uploads/4f98fdb9ff0c46be86d8773c9f90f117.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:01.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1417,
+    "name": "Realms of Pixel",
+    "url": "https://files.axoshop.ru/uploads/799bee8aa53b4567b24450f18ed7cda6.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:01.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1418,
+    "name": "Rememento: White Shadow",
+    "url": "https://files.axoshop.ru/uploads/870796d570ef44c8bcc448e53d2eb982.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:02.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1419,
+    "name": "Revelation: Infinite Journey",
+    "url": "https://files.axoshop.ru/uploads/b8017d2f52384e5da9609bdab112a419.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:02.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1420,
+    "name": "Ride Out Heroes",
+    "url": "https://files.axoshop.ru/uploads/aa2c545e29a048198c04e56cccb024d1.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:02.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1421,
+    "name": "Riot Access Code",
+    "url": "https://files.axoshop.ru/uploads/e10cc84167e84952b24a23c826e0e86d.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:03.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1422,
+    "name": "Rise of Kingdoms",
+    "url": "https://files.axoshop.ru/uploads/375f0215824e4af5abf57481a76d7d2a.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:03.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1423,
+    "name": "Rules of Survival",
+    "url": "https://files.axoshop.ru/uploads/a36a93a99a7e4652b39afebbc15b2a40.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:03.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1424,
+    "name": "SMASH LEGENDS",
+    "url": "https://files.axoshop.ru/uploads/8b622897f0eb46088164d3119c4e2ba5.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:04.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1425,
+    "name": "Saint Seiya",
+    "url": "https://files.axoshop.ru/uploads/8c1b742edb97409eb107f48c54c3dc0e.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:04.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1427,
+    "name": "Samkok Fantasy",
+    "url": "https://files.axoshop.ru/uploads/e2fa40f681374c25a37b3212e2685e1b.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:04.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1428,
+    "name": "Seal M",
+    "url": "https://files.axoshop.ru/uploads/069662c1cb484c939b6fd05757210351.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:04.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1429,
+    "name": "Seven Mortal Sins X-TASY",
+    "url": "https://files.axoshop.ru/uploads/25bd824bb4c14f0c86e4e7084cc762fe.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:04.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1430,
+    "name": "Shining Nikki",
+    "url": "https://files.axoshop.ru/uploads/6f6a2743ce3140c1a3d0b405f0e9797a.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:05.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1431,
+    "name": "Silver and Blood",
+    "url": "https://files.axoshop.ru/uploads/b4f8fb72e1b44a3f963b7860b946eea4.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:05.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1432,
+    "name": "Sky: Children of the Light",
+    "url": "https://files.axoshop.ru/uploads/fedeb6ee2ec04f96ba6946b0b253c1f5.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:06.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1433,
+    "name": "Slam Dunk",
+    "url": "https://files.axoshop.ru/uploads/3452da5d1faa4b74aed7bd91be3eda35.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:06.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1434,
+    "name": "Snowbreak: Containment Zone",
+    "url": "https://files.axoshop.ru/uploads/693c7ea80e634138abadd27d716a44ec.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:06.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1435,
+    "name": "Soul Land: New World",
+    "url": "https://files.axoshop.ru/uploads/097f6e572d404b969eedee4be7661cee.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:06.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1436,
+    "name": "Soulchill",
+    "url": "https://files.axoshop.ru/uploads/6d9734e54a954c93a27da5ed3bc270cf.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:07.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1437,
+    "name": "Spark Live",
+    "url": "https://files.axoshop.ru/uploads/fcf29bf7280448ec81c616635f6f8651.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:07.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1438,
+    "name": "TikTok",
+    "url": "https://files.axoshop.ru/uploads/55fb92d8832a47489f7ecd1472849ed0.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:07.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1439,
+    "name": "Zenless Zone Zero",
+    "url": "https://files.axoshop.ru/uploads/ad372625ff2e4877b1fcd5936fa8b06d.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:08.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1440,
+    "name": "Bilibili Premium Membership",
+    "url": "https://files.axoshop.ru/uploads/5d8de003081a4cd9adba7f28a5e1b39f.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:08.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1441,
+    "name": "Genshin Impact",
+    "url": "https://files.axoshop.ru/uploads/05a6b5939ae24ba395cfba9adabd59f8.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:08.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1442,
+    "name": "Honkai Impact",
+    "url": "https://files.axoshop.ru/uploads/232e4c906b7d4c5894d75bd5b420e13f.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:09.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1443,
+    "name": "Honkai: Star Rail",
+    "url": "https://files.axoshop.ru/uploads/984eb1e23a6341a7a15c65f08a5e6a50.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:09.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1445,
+    "name": "NetEase Pay",
+    "url": "https://files.axoshop.ru/uploads/31cd74a5ad244454a657d677434cfce6.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:10.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1446,
+    "name": "Once Human",
+    "url": "https://files.axoshop.ru/uploads/0404b28dd72c45faab9dfa8780c95e98.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:10.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1447,
+    "name": "New Soul Land (SEA) 新斗罗大陆",
+    "url": "https://files.axoshop.ru/uploads/c9a32ccc6feb4a14bb9f9281ac986d73.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:10.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1448,
+    "name": "Perfect World M 完美世界M",
+    "url": "https://files.axoshop.ru/uploads/3ea2405a668a4d81bb9aab491ca69f5e.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:11.000Z",
+    "updated_at": "2026-02-26T21:25:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1470,
+    "name": "Blue Protocol: Star Resonance",
+    "url": "https://files.axoshop.ru/uploads/300ac9d1ee2c416dbe22cf636da91fc5.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:17.000Z",
+    "updated_at": "2026-02-27T09:37:45.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1471,
+    "name": "Boyaa Texas Poker",
+    "url": "https://files.axoshop.ru/uploads/2250e256ec2c4f16b6f5245acc3cbeaa.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:18.000Z",
+    "updated_at": "2026-02-27T09:38:19.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1472,
+    "name": "Bullet Angel: Xshot Mission M",
+    "url": "https://files.axoshop.ru/uploads/794b01ceb3d54122988835bced346779.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:18.000Z",
+    "updated_at": "2026-02-27T09:39:26.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1473,
+    "name": "CapCut",
+    "url": "https://files.axoshop.ru/uploads/e388ef5731554fbda612d58c3a68c82b.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:18.000Z",
+    "updated_at": "2026-02-27T09:44:39.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1474,
+    "name": "Capsa City",
+    "url": "https://files.axoshop.ru/uploads/98d25d0c58c54ef59b491d0de3a178ff.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:19.000Z",
+    "updated_at": "2026-02-27T09:46:10.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1475,
+    "name": "Captain Tsubasa: Ace",
+    "url": "https://files.axoshop.ru/uploads/edc4ecd8c6794fbcbdbbd1bf74bf7255.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:19.000Z",
+    "updated_at": "2026-02-27T09:47:06.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1476,
+    "name": "Chamet",
+    "url": "https://files.axoshop.ru/uploads/2d6f042d3f2a4ff2b78cbf2fc4891335.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:19.000Z",
+    "updated_at": "2026-02-27T09:47:47.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1477,
+    "name": "Chess Rush",
+    "url": "https://files.axoshop.ru/uploads/ab72bb2be7aa44fa9f8e990f7a346cb7.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:20.000Z",
+    "updated_at": "2026-02-27T09:48:48.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1478,
+    "name": "City of Crime: Gang Wars",
+    "url": "https://files.axoshop.ru/uploads/c54b7363a4494af3958815c0e1aae77a.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:20.000Z",
+    "updated_at": "2026-02-27T09:49:25.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1479,
+    "name": "Clash Of Plants",
+    "url": "https://files.axoshop.ru/uploads/bb05ffbfb41840b3b3cbcc6aa8e34ce7.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:21.000Z",
+    "updated_at": "2026-02-27T09:50:21.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1480,
+    "name": "Cloud Song: Saga of Skywalkers",
+    "url": "https://files.axoshop.ru/uploads/18ed9076e00b4402aa2c55cd06022204.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:21.000Z",
+    "updated_at": "2026-02-27T09:51:59.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1481,
+    "name": "CODM - Garena",
+    "url": "https://files.axoshop.ru/uploads/dc90567d5515431faf940fb3f152f5c7.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:21.000Z",
+    "updated_at": "2026-02-27T09:53:36.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1482,
+    "name": "Command & Conquer™: Legions",
+    "url": "https://files.axoshop.ru/uploads/1e446f495ebf4edc9c8c09b0fe002d7e.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:21.000Z",
+    "updated_at": "2026-02-27T09:55:25.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1483,
+    "name": "Conquer Online",
+    "url": "https://files.axoshop.ru/uploads/181408a4278e4d289c294ad9db36be08.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:22.000Z",
+    "updated_at": "2026-02-27T09:56:38.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1484,
+    "name": "Contra Returns",
+    "url": "https://files.axoshop.ru/uploads/dd4ca55922684cd3840e47c2d39cd754.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:22.000Z",
+    "updated_at": "2026-02-27T09:57:10.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1485,
+    "name": "Counter:Side",
+    "url": "https://files.axoshop.ru/uploads/b2134385035547169d9b011969b62343.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:22.000Z",
+    "updated_at": "2026-02-27T12:08:52.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1486,
+    "name": "Creative Destruction",
+    "url": "https://files.axoshop.ru/uploads/5173b1f9b0764186b9b3365dc00887bf.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:23.000Z",
+    "updated_at": "2026-02-27T12:09:18.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1487,
+    "name": "Crossfire: Legends",
+    "url": "https://files.axoshop.ru/uploads/7db8b8f8a0c248d4ac5d97cfdb3366c7.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:23.000Z",
+    "updated_at": "2026-02-27T12:09:50.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1488,
+    "name": "Crossing Void",
+    "url": "https://files.axoshop.ru/uploads/30255911c4374858b1f23301ec8691b5.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:23.000Z",
+    "updated_at": "2026-02-27T12:10:30.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1489,
+    "name": "Crystal of Atlan",
+    "url": "https://files.axoshop.ru/uploads/3b8b6ef5b0c3476db0e6cbefd23c7e69.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:24.000Z",
+    "updated_at": "2026-02-27T12:10:55.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1490,
+    "name": "Crystalfall",
+    "url": "https://files.axoshop.ru/uploads/3a2f684302cf4f75acca7e6bd23bd06e.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:24.000Z",
+    "updated_at": "2026-02-27T12:11:20.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1491,
+    "name": "Cyber Hunter",
+    "url": "https://files.axoshop.ru/uploads/0e26ddb2a68a416d85dfa022d00cfee3.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:24.000Z",
+    "updated_at": "2026-02-27T12:12:39.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1492,
+    "name": "Dark Nemesis: Infinite quest",
+    "url": "https://files.axoshop.ru/uploads/333f202331944cada0ef861c5bcdda06.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:24.000Z",
+    "updated_at": "2026-02-27T12:13:51.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1493,
+    "name": "DC Worlds Collide",
+    "url": "https://files.axoshop.ru/uploads/bb83f3b48a224864ba1d71f1e162f507.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:25.000Z",
+    "updated_at": "2026-02-27T12:14:26.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1494,
+    "name": "DDTank Origin",
+    "url": "https://files.axoshop.ru/uploads/5a6647fbcb6949e9b3c14200f406b5f2.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:25.000Z",
+    "updated_at": "2026-02-27T12:15:30.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1495,
+    "name": "Dead By Daylight Mobile",
+    "url": "https://files.axoshop.ru/uploads/2ec20b4e2cc5467ab6d962afbcc6fd7d.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:25.000Z",
+    "updated_at": "2026-02-27T12:16:45.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1496,
+    "name": "Dead Target",
+    "url": "https://files.axoshop.ru/uploads/a51061f7303f4d0abb27762288d7a2c6.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:25.000Z",
+    "updated_at": "2026-02-27T12:17:34.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1497,
+    "name": "Deadly Dudes",
+    "url": "https://files.axoshop.ru/uploads/36708c600ff64c63bfe05b5432b75d12.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:26.000Z",
+    "updated_at": "2026-02-27T12:19:39.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1498,
+    "name": "Destiny M: God Descends",
+    "url": "https://files.axoshop.ru/uploads/0504b4c81e604aa7b4023938de7b6c06.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:26.000Z",
+    "updated_at": "2026-02-27T12:20:15.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1499,
+    "name": "Dragon Nest SEA",
+    "url": "https://files.axoshop.ru/uploads/335597e4a5044c81834044996b87c8d2.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:26.000Z",
+    "updated_at": "2026-02-27T12:21:29.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1500,
+    "name": "Dragon POW!",
+    "url": "https://files.axoshop.ru/uploads/93b86c47b45c4fbdb320b1b05579270f.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:27.000Z",
+    "updated_at": "2026-02-27T12:23:16.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1501,
+    "name": "Dragon Raja",
+    "url": "https://files.axoshop.ru/uploads/68dccd2a8b3b45e39612db7f4626613b.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:27.000Z",
+    "updated_at": "2026-02-27T12:23:57.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1502,
+    "name": "Dream and Lethe Record",
+    "url": "https://files.axoshop.ru/uploads/3c35ffb9b7de416ea650989feb841a6b.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:27.000Z",
+    "updated_at": "2026-02-27T12:26:41.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1503,
+    "name": "Duet Night Abyss",
+    "url": "https://files.axoshop.ru/uploads/0d7427d3ccf143fc9dbf78366fbf3b70.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:27.000Z",
+    "updated_at": "2026-02-27T12:27:51.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1504,
+    "name": "Dummy Land",
+    "url": "https://files.axoshop.ru/uploads/3c936198513b401498f44f522df5f77d.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:28.000Z",
+    "updated_at": "2026-02-27T12:28:15.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1505,
+    "name": "Dunk City Dynasty",
+    "url": "https://files.axoshop.ru/uploads/4e4772a016ea4d6d9eec1cfad54d177f.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:28.000Z",
+    "updated_at": "2026-02-27T12:31:24.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1506,
+    "name": "Duole Domino",
+    "url": "https://files.axoshop.ru/uploads/9d291f4f7e9640b498cb0dd972dc1735.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:28.000Z",
+    "updated_at": "2026-02-27T12:29:05.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1507,
+    "name": "Dynasty Heroes: Legend Samkok",
+    "url": "https://files.axoshop.ru/uploads/5f80eed12c254c28beea54e3732a7c76.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:28.000Z",
+    "updated_at": "2026-02-27T12:30:01.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1508,
+    "name": "Dynasty Warriors: Overlords",
+    "url": "https://files.axoshop.ru/uploads/081ddbbdc640442eb4a8d52bd65bf4c1.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:29.000Z",
+    "updated_at": "2026-02-27T12:30:49.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1509,
+    "name": "Eclipse Isle",
+    "url": "https://files.axoshop.ru/uploads/25cc2e772a904d83b5d7c8b7185f9111.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:29.000Z",
+    "updated_at": "2026-02-27T12:33:28.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1510,
+    "name": "Eggy Party",
+    "url": "https://files.axoshop.ru/uploads/e84dd04d25ad4012ae6f46a3ee6133ec.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:30.000Z",
+    "updated_at": "2026-02-27T12:35:00.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1511,
+    "name": "Elelive",
+    "url": "https://files.axoshop.ru/uploads/d203b50bd13947b8a12d6359bcb5cd47.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:30.000Z",
+    "updated_at": "2026-02-27T12:35:38.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1512,
+    "name": "Ensemble Stars Music",
+    "url": "https://files.axoshop.ru/uploads/fb838f3f9d3441ad8958fb991d3abe71.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:30.000Z",
+    "updated_at": "2026-02-27T12:36:10.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1513,
+    "name": "Era of Legends",
+    "url": "https://files.axoshop.ru/uploads/54cb69dc57344db1bec44920449f34f2.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:30.000Z",
+    "updated_at": "2026-02-27T12:37:10.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1514,
+    "name": "Eternal City",
+    "url": "https://files.axoshop.ru/uploads/b33b350795094421b544f0c3011c087e.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:30.000Z",
+    "updated_at": "2026-02-27T12:37:39.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1515,
+    "name": "Eudemons Online",
+    "url": "https://files.axoshop.ru/uploads/c0a067ed738e449a8caf1505ccafa453.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:31.000Z",
+    "updated_at": "2026-02-27T12:40:18.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1516,
+    "name": "EVE Echoes",
+    "url": "https://files.axoshop.ru/uploads/9c77aaac4ead4b7a9cb332a3008ecbc7.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:31.000Z",
+    "updated_at": "2026-02-27T12:40:58.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1517,
+    "name": "Extraordinary Ones",
+    "url": "https://files.axoshop.ru/uploads/38da736da8f24badac488f506cb77859.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:31.000Z",
+    "updated_at": "2026-02-27T12:41:30.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1518,
+    "name": "Fashion Dream",
+    "url": "https://files.axoshop.ru/uploads/c35e1b1a6395437ab5d0a10c5d8a5568.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:32.000Z",
+    "updated_at": "2026-02-27T12:41:55.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1519,
+    "name": "Fat Meat Wukong",
+    "url": "https://files.axoshop.ru/uploads/f05118cd58284ce6a97d91de4e2f2d45.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:32.000Z",
+    "updated_at": "2026-02-27T12:42:16.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1520,
+    "name": "Figure Fantasy",
+    "url": "https://files.axoshop.ru/uploads/94742372ca74487cb7f3a37d4cc4183e.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:32.000Z",
+    "updated_at": "2026-02-27T12:43:19.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1521,
+    "name": "Firefly Live",
+    "url": "https://files.axoshop.ru/uploads/1f47015dd3b241cb9321139896c8ddf2.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:32.000Z",
+    "updated_at": "2026-02-27T12:45:18.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1522,
+    "name": "Flash Party",
+    "url": "https://files.axoshop.ru/uploads/cda45686a58f4397a2cbebdb2acadb32.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:33.000Z",
+    "updated_at": "2026-02-27T12:46:17.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1523,
+    "name": "Football Master 2",
+    "url": "https://files.axoshop.ru/uploads/0a136ba8c8bc416c83fa8d7ab0fc65a8.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:33.000Z",
+    "updated_at": "2026-02-27T12:46:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1524,
+    "name": "Football Rising Star",
+    "url": "https://files.axoshop.ru/uploads/37898dc293554f889b9d1f118ee77fba.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:33.000Z",
+    "updated_at": "2026-02-27T12:47:20.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1525,
+    "name": "Ghost Story: Love Destiny",
+    "url": "https://files.axoshop.ru/uploads/f1a2b3ecc2f24f9f9c4bf05c9c6dba0f.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:34.000Z",
+    "updated_at": "2026-02-27T12:47:45.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1526,
+    "name": "Heroes Evolved",
+    "url": "https://files.axoshop.ru/uploads/9fb0043b6af144b988ea696205647b98.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:34.000Z",
+    "updated_at": "2026-02-27T12:48:07.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1528,
+    "name": "Jujutsu Kaisen Phantom Parade",
+    "url": "https://files.axoshop.ru/uploads/c0ffb5db003948eba026e4d4e8024f6d.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:35.000Z",
+    "updated_at": "2026-02-27T12:51:28.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1529,
+    "name": "MICO Live",
+    "url": "https://files.axoshop.ru/uploads/7321629d58564406a39b795153c53bd5.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:35.000Z",
+    "updated_at": "2026-02-27T12:51:48.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1530,
+    "name": "Migo Live",
+    "url": "https://files.axoshop.ru/uploads/8e2a7b2877a0429eb9a46f944a123d4b.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:35.000Z",
+    "updated_at": "2026-02-27T12:54:42.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1531,
+    "name": "Mobile Legends",
+    "url": "https://files.axoshop.ru/uploads/d77e4bc7e66b4ba38ec06b0fa4ecb412.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:36.000Z",
+    "updated_at": "2026-02-27T12:52:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1534,
+    "name": "NBA Infinite",
+    "url": "https://files.axoshop.ru/uploads/f65e5d30d0844a508fc3dc30e4751b6f.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:36.000Z",
+    "updated_at": "2026-02-27T12:53:06.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1539,
+    "name": "Point Blank",
+    "url": "https://files.axoshop.ru/uploads/87d484d4d69c4776895c3740e445e3c0.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:36.000Z",
+    "updated_at": "2026-02-27T12:53:50.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1540,
+    "name": "Pokémon UNITE",
+    "url": "https://files.axoshop.ru/uploads/b4db8bf82fd649ab98a8cddbc3ce8895.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:37.000Z",
+    "updated_at": "2026-02-27T12:55:29.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1541,
+    "name": "Rainbow Six Mobile",
+    "url": "https://files.axoshop.ru/uploads/22143a90dbbe4e1da77df06b0742b751.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:37.000Z",
+    "updated_at": "2026-02-27T12:55:51.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1542,
+    "name": "Wuthering Waves",
+    "url": "https://files.axoshop.ru/uploads/aa3d3bc173cc453ba0a3f789853cdbb0.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:37.000Z",
+    "updated_at": "2026-02-27T12:57:03.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1543,
+    "name": "Apple Music",
+    "url": "https://files.axoshop.ru/uploads/abbbcc10ac2f476b9e04fd86bc06804f.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:38.000Z",
+    "updated_at": "2026-02-27T12:57:41.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1544,
+    "name": "iQIYI",
+    "url": "https://files.axoshop.ru/uploads/94755ed7d81a408f80ff457cb433a744.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:38.000Z",
+    "updated_at": "2026-02-27T12:58:10.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1551,
+    "name": "Battle of Kings",
+    "url": "https://files.axoshop.ru/uploads/b8e8901bd3b24b90b938619416bbe053.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:38.000Z",
+    "updated_at": "2026-02-27T12:59:14.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1552,
+    "name": "beIN Connect",
+    "url": "https://files.axoshop.ru/uploads/0516f33a25334d6c9026373b363d1efe.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:39.000Z",
+    "updated_at": "2026-02-27T13:01:06.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1553,
+    "name": "Binance",
+    "url": "https://files.axoshop.ru/uploads/77c64cf8b145464eb7a0430b26e2823a.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:39.000Z",
+    "updated_at": "2026-02-27T13:01:26.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1554,
+    "name": "Bitcash",
+    "url": "https://files.axoshop.ru/uploads/55d2377a4fd14c55bbff2de1101f8ac5.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:39.000Z",
+    "updated_at": "2026-02-27T13:01:54.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1555,
+    "name": "Black Clover M Redeem Card",
+    "url": "https://files.axoshop.ru/uploads/02a3b531dc444d25b273bed2be74fe02.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:40.000Z",
+    "updated_at": "2026-02-27T13:02:46.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1556,
+    "name": "Black Myth: Wukong",
+    "url": "https://files.axoshop.ru/uploads/c625da70ec2843d4a9300e34d2f41351.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:40.000Z",
+    "updated_at": "2026-02-27T13:03:06.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1557,
+    "name": "Blacknut",
+    "url": "https://files.axoshop.ru/uploads/967158db4aa84ffaa5575a5f0d1b5387.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:40.000Z",
+    "updated_at": "2026-02-27T13:03:22.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1558,
+    "name": "Blizzard",
+    "url": "https://files.axoshop.ru/uploads/abe62636d0994c60bb5923a998d3e991.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:41.000Z",
+    "updated_at": "2026-02-27T13:04:31.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1559,
+    "name": "Candy Crush",
+    "url": "https://files.axoshop.ru/uploads/f50e90c6ae414fb8ad7aadd0395c7aab.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:41.000Z",
+    "updated_at": "2026-02-27T13:04:48.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1560,
+    "name": "Carrom Gold",
+    "url": "https://files.axoshop.ru/uploads/38417662a1a7448596d21aaedec24ce8.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:41.000Z",
+    "updated_at": "2026-02-27T13:05:13.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1561,
+    "name": "CashU",
+    "url": "https://files.axoshop.ru/uploads/135fb2d1dd5443a59b74e927a4aebd76.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:41.000Z",
+    "updated_at": "2026-02-27T13:05:56.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 1563,
+    "name": "Cherry Credits",
+    "url": "https://files.axoshop.ru/uploads/edb5049ad65747bb81185e0233d55938.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:42.000Z",
+    "updated_at": "2026-02-27T13:14:04.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1564,
+    "name": "Climbing Sand Dune",
+    "url": "https://files.axoshop.ru/uploads/d5d5c4dfcd1f47738585bf0c0cf50f82.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:42.000Z",
+    "updated_at": "2026-02-27T13:15:34.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1565,
+    "name": "Crunchyroll",
+    "url": "https://files.axoshop.ru/uploads/359271ab58834dd3b1e4dc011e8dd747.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:43.000Z",
+    "updated_at": "2026-02-27T13:16:36.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1566,
+    "name": "Discord",
+    "url": "https://files.axoshop.ru/uploads/6256d6fc290f40d7bacbe59bd062e545.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:43.000Z",
+    "updated_at": "2026-02-27T13:16:57.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1567,
+    "name": "Domino Cafe",
+    "url": "https://files.axoshop.ru/uploads/889665ed32bd43bf9cb455c70cc60661.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:43.000Z",
+    "updated_at": "2026-02-27T13:18:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1568,
+    "name": "Doom: The Dark Ages",
+    "url": "https://files.axoshop.ru/uploads/8baf1f13d21d4fd79be35b6c54507db7.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:44.000Z",
+    "updated_at": "2026-02-27T13:19:14.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1569,
+    "name": "eBay",
+    "url": "https://files.axoshop.ru/uploads/fd185f25a52043c5bd8f4438488059e7.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:44.000Z",
+    "updated_at": "2026-02-27T13:19:36.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1570,
+    "name": "Fashion Queen",
+    "url": "https://files.axoshop.ru/uploads/0daa38eb3e4240ce9665c194f9b678d4.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:44.000Z",
+    "updated_at": "2026-02-27T13:19:58.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1571,
+    "name": "Fortnite",
+    "url": "https://files.axoshop.ru/uploads/cb48b3383f7642f299867ae15fe4cfe6.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:44.000Z",
+    "updated_at": "2026-02-27T13:20:34.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1572,
+    "name": "GameStop Gift Card",
+    "url": "https://files.axoshop.ru/uploads/25fe303c2ffb4f2aa32f3c178a7f5ec9.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:44.000Z",
+    "updated_at": "2026-02-27T13:21:44.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1573,
+    "name": "Merge Kingdom Warlords",
+    "url": "https://files.axoshop.ru/uploads/1e0d2dd8d9ea47349c08820f78678944.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:45.000Z",
+    "updated_at": "2026-02-27T13:22:07.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1574,
+    "name": "Ncsoft",
+    "url": "https://files.axoshop.ru/uploads/e4c7f7ead4c24b9fae4bce09a11b02b9.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:45.000Z",
+    "updated_at": "2026-02-27T13:22:31.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1575,
+    "name": "Nida Al Harb",
+    "url": "https://files.axoshop.ru/uploads/8e409217c4354f18bf2ac1c6effabbe9.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:45.000Z",
+    "updated_at": "2026-02-27T13:23:48.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1576,
+    "name": "oBucks",
+    "url": "https://files.axoshop.ru/uploads/693262fa917d4fc59d6001295f70c24d.webp",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:46.000Z",
+    "updated_at": "2026-02-27T13:24:17.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1577,
+    "name": "Parchis Club",
+    "url": "https://files.axoshop.ru/uploads/44083473280e454faf3f02b0c66bc750.jpg",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:46.000Z",
+    "updated_at": "2026-02-27T13:25:23.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1578,
+    "name": "podU",
+    "url": "https://files.axoshop.ru/uploads/709d91105adf40eca2088bcabffed0b3.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:46.000Z",
+    "updated_at": "2026-02-27T13:25:58.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1579,
+    "name": "PUBG G-Coin",
+    "url": "https://files.axoshop.ru/uploads/9c0736acdd3745f885a2683938951b3f.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:47.000Z",
+    "updated_at": "2026-02-27T13:26:21.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 1580,
+    "name": "iCash.one",
+    "url": "https://files.axoshop.ru/uploads/edd2f80ad79f4e31b42a120b7bce3d03.png",
+    "enabled": 1,
+    "created_at": "2026-02-26T21:18:47.000Z",
+    "updated_at": "2026-02-27T13:28:37.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 2101,
+    "name": "Xbox",
+    "url": "xbox",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:10.000Z",
+    "updated_at": "2026-02-28T16:35:10.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2102,
+    "name": "Playstation",
+    "url": "playstation",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:11.000Z",
+    "updated_at": "2026-02-28T16:35:11.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2103,
+    "name": "Nintendo",
+    "url": "nintendo",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:11.000Z",
+    "updated_at": "2026-02-28T16:35:11.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2104,
+    "name": "Google Play",
+    "url": "google-play",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:12.000Z",
+    "updated_at": "2026-02-28T16:35:12.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2105,
+    "name": "App Store",
+    "url": "app-store",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:12.000Z",
+    "updated_at": "2026-02-28T16:35:12.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2106,
+    "name": "Battle.net",
+    "url": "battle.net",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:13.000Z",
+    "updated_at": "2026-02-28T16:35:13.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2107,
+    "name": "EA SPORTS FC 26",
+    "url": "ea-sports-fc-26",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:13.000Z",
+    "updated_at": "2026-02-28T16:35:13.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2110,
+    "name": "Roblox",
+    "url": "roblox",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:14.000Z",
+    "updated_at": "2026-02-28T16:35:14.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2111,
+    "name": "Minecraft",
+    "url": "minecraft",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:15.000Z",
+    "updated_at": "2026-02-28T16:35:15.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2112,
+    "name": "Netflix",
+    "url": "netflix",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:15.000Z",
+    "updated_at": "2026-02-28T16:35:15.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2113,
+    "name": "Valorant",
+    "url": "valorant",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:15.000Z",
+    "updated_at": "2026-02-28T16:35:15.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2114,
+    "name": "Rewarble",
+    "url": "rewarble",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:16.000Z",
+    "updated_at": "2026-02-28T16:35:16.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2115,
+    "name": "GTA V",
+    "url": "gta-v",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:16.000Z",
+    "updated_at": "2026-02-28T16:35:16.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2116,
+    "name": "Discord",
+    "url": "discord",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:17.000Z",
+    "updated_at": "2026-02-28T16:35:17.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2118,
+    "name": "Red Dead Redemption 2",
+    "url": "red-dead-redemption-2",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:13.000Z",
+    "updated_at": "2026-02-28T16:35:13.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2119,
+    "name": "EA Play",
+    "url": "ea-play",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:18.000Z",
+    "updated_at": "2026-02-28T16:35:18.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 2120,
+    "name": "Diablo IV Xbox Global",
+    "url": "diablo-iv-xbox-global",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:18.000Z",
+    "updated_at": "2026-02-28T16:35:18.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2121,
+    "name": "Apex Legends Xbox Global",
+    "url": "apex-legends-xbox-global",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:19.000Z",
+    "updated_at": "2026-02-28T16:35:19.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2123,
+    "name": "Red Dead Redemption 2",
+    "url": "red-dead-redemption-2",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:20.000Z",
+    "updated_at": "2026-02-28T16:35:20.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2124,
+    "name": "Fortnite",
+    "url": "fortnite",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:21.000Z",
+    "updated_at": "2026-02-28T16:35:21.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 2125,
+    "name": "Overwatch 2",
+    "url": "overwatch-2",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:21.000Z",
+    "updated_at": "2026-02-28T16:35:21.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 2126,
+    "name": "World of Warcraft Timecard",
+    "url": "world-of-warcraft-timecard",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:21.000Z",
+    "updated_at": "2026-02-28T16:35:21.000Z",
+    "image_url": null,
+    "type": "massive"
+  },
+  {
+    "id": 2127,
+    "name": "Tom Clancys Rainbow Six Siege X",
+    "url": "tom-clancys-rainbow-six-siege-x",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:22.000Z",
+    "updated_at": "2026-02-28T16:35:22.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2128,
+    "name": "ARC Raiders",
+    "url": "arc-raiders",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:22.000Z",
+    "updated_at": "2026-02-28T16:35:22.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 2129,
+    "name": "Riot Cash Card Brazil",
+    "url": "riot-cash-card-brazil",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:22.000Z",
+    "updated_at": "2026-02-28T16:35:22.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 21108,
+    "name": "Steam",
+    "url": "steam",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:13.000Z",
+    "updated_at": "2026-02-28T16:35:13.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 21109,
+    "name": "Spotify",
+    "url": "spotify",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:14.000Z",
+    "updated_at": "2026-02-28T16:35:14.000Z",
+    "image_url": null,
+    "type": "category"
+  },
+  {
+    "id": 21117,
+    "name": "League of Legends",
+    "url": "league-of-legends",
+    "enabled": 1,
+    "created_at": "2026-02-28T16:35:17.000Z",
+    "updated_at": "2026-02-28T16:35:17.000Z",
+    "image_url": null,
+    "type": "massive"
+  }
+]
