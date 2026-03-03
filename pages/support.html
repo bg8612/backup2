@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    @@include('partials/head.html')
+    <title>AxoShop — Поддержка</title>
+
+    <style>
+      .support-hero {
+        background: var(--white);
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        margin-bottom: 20px;
+      }
+      .support-hero__title {
+        font-family: SF-Pro-Display-Semibold, sans-serif;
+        font-size: 45px;
+        line-height: 1;
+        margin: 0 0 10px;
+        color: var(--black);
+        text-transform: lowercase;
+        letter-spacing: -0.05em;
+      }
+      .support-hero__subtitle {
+        font-family: SF-Pro-Display-Regular, sans-serif;
+        font-size: 14px;
+        color: var(--text-gray);
+        margin: 0;
+      }
+
+      .support-layout {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        padding-bottom: 80px;
+      }
+      .support-col {
+        width: 100%;
+      }
+      .support-col--left {
+        max-width: 520px;
+        flex-shrink: 0;
+      }
+
+      .support-card {
+        background: var(--white);
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      }
+      .support-card + .support-card {
+        margin-top: 15px;
+      }
+      .support-card__title {
+        font-family: SF-Pro-Display-Semibold, sans-serif;
+        font-size: 24px;
+        line-height: 1.1;
+        margin: 0 0 12px;
+        color: var(--black);
+        text-transform: lowercase;
+        letter-spacing: -0.03em;
+      }
+      .support-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+      .support-links .support-link:last-child {
+        grid-column: 1 / -1;
+      }
+      .support-link {
+        border: 1.5px solid var(--bg-gray);
+        border-radius: 15px;
+        padding: 12px 14px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        transition: 0.2s;
+        text-decoration: none;
+        color: var(--black);
+      }
+      .support-link:hover {
+        background: #f8f8f8;
+      }
+      .support-link__meta {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        min-width: 0;
+      }
+      .support-link__label {
+        font-family: SF-Pro-Display-Semibold, sans-serif;
+        font-size: 14px;
+        text-transform: lowercase;
+        line-height: 1;
+      }
+      .support-link__desc {
+        font-family: SF-Pro-Display-Regular, sans-serif;
+        font-size: 12px;
+        color: var(--text-gray);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .support-link__icon {
+        width: 34px;
+        height: 34px;
+        border-radius: 12px;
+        background: var(--bg-gray);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+
+      .support-status {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .support-status__row {
+        display: flex;
+        gap: 10px;
+      }
+      .support-status .auth-input-group {
+        border-color: var(--bg-gray);
+      }
+      .support-status__note {
+        font-family: SF-Pro-Display-Regular, sans-serif;
+        font-size: 12px;
+        color: var(--text-gray);
+        line-height: 1.4;
+      }
+
+      .faq {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .faq-item {
+        border: 1.5px solid var(--bg-gray);
+        border-radius: 15px;
+        overflow: hidden;
+        background: var(--white);
+        transition: height 0.3s ease;
+      }
+      .faq-q {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        padding: 14px 14px;
+        text-align: left;
+        border: none;
+        cursor: pointer;
+      }
+      .faq-q span {
+        font-family: SF-Pro-Display-Semibold, sans-serif;
+        font-size: 16px;
+        color: var(--black);
+        text-transform: lowercase;
+        line-height: 1.1;
+      }
+      .faq-q svg {
+        width: 18px;
+        height: 18px;
+        transition: transform 0.25s;
+        flex-shrink: 0;
+      }
+      .faq-item[open] .faq-q svg {
+        transform: rotate(180deg);
+      }
+      .faq-a {
+        padding: 0 14px 14px;
+        font-family: SF-Pro-Display-Regular, sans-serif;
+        font-size: 14px;
+        color: var(--black);
+        line-height: 1.5;
+      }
+      .faq-a p {
+        margin: 0;
+      }
+
+      .support-form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .support-form .auth-input-group {
+        border: 1.5px solid var(--bg-gray);
+        /* фикс: чтобы label и placeholder не "наезжали" друг на друга */
+        height: auto;
+        min-height: 58px;
+        justify-content: flex-start;
+        padding-top: 10px;
+      }
+      .support-form .auth-input {
+        /* небольшое дыхание между label и полем */
+        margin-top: 2px;
+      }
+      /* оставляем стандартную высоту только для блока "проверить заказ" */
+      .support-status .auth-input-group {
+        height: 50px;
+        padding-top: 8px;
+        justify-content: center;
+      }
+
+      /* фикс placeholder-стиля для select: серый пока не выбрано значение */
+      .support-form select.auth-input:invalid {
+        color: var(--text-gray);
+      }
+      .support-form select.auth-input {
+        appearance: none;
+        -webkit-appearance: none;
+        background-color: transparent;
+        background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%23000000' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 15px center;
+        padding: 0 30px 0 0;
+        width: 100%;
+        cursor: pointer;
+      }
+      .support-form select.auth-input option {
+        color: var(--black);
+      }
+      
+      .support-form .auth-input-group.group-open {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+      .support-form .auth-input-group.error {
+        border-color: #FF3B30;
+      }
+
+      /* Custom Select Styles (JS generated) */
+      .custom-select-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+      .custom-select-trigger {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-family: SF-Pro-Display-Semibold, sans-serif;
+        font-size: 16px;
+        color: var(--black);
+        background-color: transparent;
+        background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%23000000' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 15px center;
+        padding-right: 30px;
+        user-select: none;
+      }
+      .custom-select-trigger.placeholder {
+        color: var(--text-gray);
+      }
+      .custom-select-container.open .custom-select-trigger {
+        background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 6.5L6 1.5L11 6.5' stroke='%23000000' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      }
+      .custom-select-options {
+        position: absolute;
+        top: 135%;
+        left: -13px;
+        width: calc(100% + 26px);
+        background: #FDFDFD;
+        border: 1.5px solid var(--bg-gray);
+        border-top: none;
+        border-radius: 0 0 15px 15px;
+        padding: 6px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        z-index: 50;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: all 0.2s ease;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+      }
+      .custom-select-container.open .custom-select-options {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+      .custom-option {
+        height: 42px;
+        padding: 0 12px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        font-family: SF-Pro-Display-Regular, sans-serif;
+        font-size: 16px;
+        color: var(--black);
+        cursor: pointer;
+        transition: background 0.1s;
+      }
+      .custom-option:hover {
+        background: var(--bg-gray);
+      }
+      .custom-option.selected {
+        background: #ebebeb;
+        font-family: SF-Pro-Display-Semibold, sans-serif;
+      }
+
+      .support-form textarea.auth-input {
+        min-height: 140px;
+        resize: vertical;
+        padding-top: 6px;
+      }
+      .support-form__row {
+        display: flex;
+        gap: 10px;
+      }
+      .support-form__row > * {
+        flex: 1;
+        min-width: 0;
+      }
+      .support-form__actions {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .support-form__hint {
+        font-family: SF-Pro-Display-Regular, sans-serif;
+        font-size: 12px;
+        color: var(--text-gray);
+        line-height: 1.4;
+      }
+      .support-toast {
+        display: none;
+        margin-top: 10px;
+        border: 1.5px solid var(--bg-gray);
+        border-radius: 15px;
+        padding: 12px 14px;
+        background: #f7f7f7;
+        font-family: SF-Pro-Display-Semibold, sans-serif;
+        font-size: 14px;
+        text-transform: lowercase;
+      }
+      .support-toast.visible {
+        display: block;
+      }
+
+      @media (max-width: 1024px) {
+        .support-layout {
+          flex-direction: column;
+        }
+        .support-col--left {
+          max-width: 100%;
+        }
+      }
+      @media (min-width: 521px) {
+        #supportForm > div:nth-child(2) > div:nth-child(2) {
+          flex: 0 0 405px;
+        }
+      }
+      @media (max-width: 520px) {
+        .support-links {
+          grid-template-columns: 1fr;
+        }
+        .support-hero__title {
+          font-size: 32px;
+        }
+        .support-form__row {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="content-area">
+      @@include('partials/nav.html')
+
+      <main>
+        <section class="support-hero" aria-label="Поддержка AxoShop">
+          <h1 class="support-hero__title">поддержка</h1>
+          <p class="support-hero__subtitle">
+            Найдите ответ в FAQ или отправьте обращение — мы поможем с оплатой, доставкой и заказами.
+          </p>
+        </section>
+
+        <div class="support-layout">
+          <!-- LEFT -->
+          <aside class="support-col support-col--left">
+            <section class="support-card">
+              <h2 class="support-card__title">быстрые контакты</h2>
+
+              <div class="support-links">
+                <a class="support-link" href="#" aria-label="Чат в Telegram">
+                  <div class="support-link__icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 2L11 13"></path>
+                      <path d="M22 2L15 22l-4-9-9-4 20-7z"></path>
+                    </svg>
+                  </div>
+                  <div class="support-link__meta">
+                    <span class="support-link__label">чат telegram</span>
+                    <span class="support-link__desc">ответ в течение дня</span>
+                  </div>
+                </a>
+
+                <a class="support-link" href="mailto:support@axoshop.ru" aria-label="Почта поддержки">
+                  <div class="support-link__icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div class="support-link__meta">
+                    <span class="support-link__label">почта</span>
+                    <span class="support-link__desc">support@axoshop.ru</span>
+                  </div>
+                </a>
+
+                <a class="support-link" href="/pages/profile.html" aria-label="История заказов">
+                  <div class="support-link__icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M3 3h18v18H3z"></path>
+                      <path d="M7 7h10"></path>
+                      <path d="M7 12h10"></path>
+                      <path d="M7 17h6"></path>
+                    </svg>
+                  </div>
+                  <div class="support-link__meta">
+                    <span class="support-link__label">мои заказы</span>
+                    <span class="support-link__desc">проверить статус</span>
+                  </div>
+                </a>
+              </div>
+            </section>
+
+            <section class="support-card" aria-label="FAQ">
+              <h2 class="support-card__title">частые вопросы</h2>
+
+              <div class="faq" id="faq">
+                <details class="faq-item">
+                  <summary class="faq-q">
+                    <span>где найти код после оплаты?</span>
+                    <svg viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path d="M1 1.5L6 6.5L11 1.5" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </summary>
+                  <div class="faq-a">
+                    <p>Обычно код появляется в профиле в разделе «история покупок» сразу после успешной оплаты.</p>
+                  </div>
+                </details>
+
+                <details class="faq-item">
+                  <summary class="faq-q">
+                    <span>платёж прошёл, но статус «в обработке»</span>
+                    <svg viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path d="M1 1.5L6 6.5L11 1.5" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </summary>
+                  <div class="faq-a">
+                    <p>Иногда поставщику нужно время на выдачу ключа/услуги. Если прошло больше 30 минут — напишите в поддержку и укажите номер заказа.</p>
+                  </div>
+                </details>
+
+                <details class="faq-item">
+                  <summary class="faq-q">
+                    <span>как вернуть средства?</span>
+                    <svg viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path d="M1 1.5L6 6.5L11 1.5" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </summary>
+                  <div class="faq-a">
+                    <p>Опишите ситуацию в обращении ниже: номер заказа, способ оплаты и причину возврата. Мы проверим и подскажем варианты решения.</p>
+                  </div>
+                </details>
+
+                <details class="faq-item">
+                  <summary class="faq-q">
+                    <span>ошибка при активации ключа</span>
+                    <svg viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path d="M1 1.5L6 6.5L11 1.5" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </summary>
+                  <div class="faq-a">
+                    <p>Проверьте регион, регистр и пробелы. Если ошибка остаётся — пришлите скрин/текст ошибки и номер заказа.</p>
+                  </div>
+                </details>
+              </div>
+            </section>
+          </aside>
+
+          <!-- RIGHT -->
+          <section class="support-col">
+            <section class="support-card" aria-label="Форма обращения в поддержку">
+              <h2 class="support-card__title">обращение в поддержку</h2>
+
+              <form class="support-form" id="supportForm">
+                <div class="support-form__row">
+                  <div class="auth-input-group">
+                    <label class="auth-label">почта</label>
+                    <input class="auth-input" name="email" type="email" placeholder="your@mail.com" required />
+                  </div>
+                  <div class="auth-input-group">
+                    <label class="auth-label">номер заказа (если есть)</label>
+                    <input class="auth-input" name="order" type="text" placeholder="3040890003" inputmode="numeric" />
+                  </div>
+                </div>
+
+                <div class="support-form__row">
+                  <div class="auth-input-group">
+                    <label class="auth-label">тема</label>
+                    <input class="auth-input" name="topic" type="text" placeholder="например: не пришёл код" required />
+                  </div>
+
+                  <div class="auth-input-group">
+                    <label class="auth-label">категория</label>
+                    <select class="auth-input" name="category" required>
+                      <option value="" selected disabled>выберите</option>
+                      <option value="payment">оплата</option>
+                      <option value="delivery">доставка / выдача</option>
+                      <option value="activation">активация / ключ</option>
+                      <option value="refund">возврат</option>
+                      <option value="other">другое</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="auth-input-group">
+                  <label class="auth-label">описание проблемы</label>
+                  <textarea class="auth-input" name="message" placeholder="опишите ситуацию: что сделали, что ожидали, что получили" required></textarea>
+                </div>
+
+                <div class="support-form__actions">
+                  <button type="submit" class="btn btn--black">отправить</button>
+                  <a class="btn btn--outline" href="/pages/profile.html">перейти к заказам</a>
+                  <span class="support-form__hint">не прикрепляйте данные карты. достаточно номера заказа и описания.</span>
+                </div>
+
+                <div class="support-toast" id="supportToast" role="status" aria-live="polite">
+                  обращение создано. мы ответим на указанную почту
+                </div>
+              </form>
+            </section>
+
+            <section class="support-card" aria-label="Подсказки">
+              <h2 class="support-card__title">что ускорит решение</h2>
+              <div class="faq-a">
+                <p>
+                  • номер заказа и способ оплаты<br/>
+                  • точный текст ошибки / скриншот<br/>
+                  • время оплаты и сумма<br/>
+                  • ваш регион/валюта (если проблема с ключом)
+                </p>
+              </div>
+            </section>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    @@include('partials/footer.html')
+
+    <script>
+      const supportForm = document.getElementById("supportForm");
+      const supportToast = document.getElementById("supportToast");
+
+      if (supportForm) {
+        // Сброс ошибки при вводе
+        supportForm.querySelectorAll('.auth-input').forEach(input => {
+          input.addEventListener('input', function() {
+            this.closest('.auth-input-group').classList.remove('error');
+          });
+        });
+
+        supportForm.addEventListener("submit", (e) => {
+          e.preventDefault();
+
+          // простая валидация (HTML required уже есть)
+          const formData = new FormData(supportForm);
+          const email = (formData.get("email") || "").toString().trim();
+          const order = (formData.get("order") || "").toString().trim();
+          const topic = (formData.get("topic") || "").toString().trim();
+          const category = (formData.get("category") || "").toString().trim();
+          const message = (formData.get("message") || "").toString().trim();
+
+          let hasError = false;
+
+          // Валидация почты
+          const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          if (!email || !emailRegex.test(email)) {
+            supportForm.querySelector('input[name="email"]').closest('.auth-input-group').classList.add('error');
+            hasError = true;
+          }
+
+          // Валидация номера заказа (только цифры, если поле заполнено)
+          if (order && !/^\d+$/.test(order)) {
+            supportForm.querySelector('input[name="order"]').closest('.auth-input-group').classList.add('error');
+            hasError = true;
+          }
+
+          if (hasError || !topic || !category || !message) return;
+
+          // TODO: fetch('/api/support', { method: 'POST', body: JSON.stringify(...) })
+          supportToast.classList.add("visible");
+          supportForm.reset();
+
+          setTimeout(() => supportToast.classList.remove("visible"), 4500);
+        });
+      }
+
+      // Анимация FAQ
+      document.querySelectorAll(".faq-item").forEach((details) => {
+        const summary = details.querySelector(".faq-q");
+
+        summary.addEventListener("click", (e) => {
+          e.preventDefault();
+
+          if (details.hasAttribute("open")) {
+            // Закрытие
+            details.style.height = `${details.offsetHeight}px`;
+            
+            requestAnimationFrame(() => {
+              details.style.height = `${summary.offsetHeight}px`;
+            });
+
+            details.addEventListener("transitionend", function onEnd() {
+              if (details.style.height !== `${summary.offsetHeight}px`) return;
+              details.removeAttribute("open");
+              details.style.height = null;
+              details.removeEventListener("transitionend", onEnd);
+            }, { once: true });
+          } else {
+            // Открытие
+            details.style.height = `${summary.offsetHeight}px`;
+            details.setAttribute("open", "");
+
+            requestAnimationFrame(() => {
+              details.style.height = `${details.scrollHeight}px`;
+            });
+
+            details.addEventListener("transitionend", function onEnd() {
+              if (details.style.height !== `${details.scrollHeight}px`) return;
+              details.style.height = null;
+              details.removeEventListener("transitionend", onEnd);
+            }, { once: true });
+          }
+        });
+      });
+
+      // Custom Select Logic
+      const nativeSelect = document.querySelector('#supportForm > div:nth-child(2) > div:nth-child(2) > select');
+      
+      if (nativeSelect) {
+        nativeSelect.style.display = 'none';
+
+        const container = document.createElement('div');
+        container.className = 'custom-select-container';
+        
+        const trigger = document.createElement('div');
+        trigger.className = 'custom-select-trigger placeholder';
+        trigger.textContent = nativeSelect.options[nativeSelect.selectedIndex].text;
+        
+        const optionsList = document.createElement('div');
+        optionsList.className = 'custom-select-options';
+
+        Array.from(nativeSelect.options).forEach(opt => {
+          if (opt.disabled) return;
+
+          const optionDiv = document.createElement('div');
+          optionDiv.className = 'custom-option';
+          optionDiv.textContent = opt.text;
+          optionDiv.dataset.value = opt.value;
+          
+          if (opt.selected) {
+             optionDiv.classList.add('selected');
+             trigger.textContent = opt.text;
+             trigger.classList.remove('placeholder');
+          }
+
+          optionDiv.addEventListener('click', () => {
+            nativeSelect.value = opt.value;
+            nativeSelect.dispatchEvent(new Event('change'));
+
+            trigger.textContent = opt.text;
+            trigger.classList.remove('placeholder');
+            
+            optionsList.querySelectorAll('.custom-option').forEach(el => el.classList.remove('selected'));
+            optionDiv.classList.add('selected');
+
+            container.classList.remove('open');
+            container.parentElement.classList.remove('group-open');
+          });
+
+          optionsList.appendChild(optionDiv);
+        });
+
+        trigger.addEventListener('click', (e) => {
+            e.stopPropagation();
+            container.classList.toggle('open');
+            container.parentElement.classList.toggle('group-open');
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!container.contains(e.target)) {
+              container.classList.remove('open');
+              container.parentElement.classList.remove('group-open');
+            }
+        });
+
+        container.appendChild(trigger);
+        container.appendChild(optionsList);
+        nativeSelect.parentNode.insertBefore(container, nativeSelect);
+      }
+    </script>
+  </body>
+</html>

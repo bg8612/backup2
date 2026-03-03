@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    @@include('partials/head.html')
+    <title>
+      AxoShop — Магазин цифровых товаров | Донат в игры, Пополнение Steam
+    </title>
+    <style>
+      @media (max-width: 768px) {
+        .mobile-search-container {
+          display: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content-area">
+      @@include('partials/nav.html')
+
+      <main>
+
+        <button type="button" class="back-button js-close-details" style="margin-bottom: 20px;">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.61088 10.6663L7.80614 14.8616L6.86333 15.8044L1.05859 9.99967L6.86333 4.19494L7.80614 5.13775L3.61088 9.33301H16.0014V10.6663H3.61088Z" fill="black"/>
+          </svg>
+          <span>вернуться назад</span>
+        </button>
+
+        <article class="product-details">
+          <div class="product-details__gallery">
+            <div class="product-details__thumbs">
+              <div class="product-details__thumb skeleton" style="border: none; pointer-events: none;"></div>
+            </div>
+
+            <figure class="product-details__main-image">
+              <div class="product-image-placeholder">
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 16.5C21 16.88 20.79 17.21 20.47 17.38L12.57 21.82C12.41 21.94 12.21 22 12 22C11.79 22 11.59 21.94 11.43 21.82L3.53 17.38C3.21 17.21 3 16.88 3 16.5V7.5C3 7.12 3.21 6.79 3.53 6.62L11.43 2.18C11.59 2.06 11.79 2 12 2C12.21 2 12.41 2.06 12.57 2.18L20.47 6.62C20.79 6.79 21 7.12 21 7.5V16.5Z" stroke="#9E9E9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 22V12" stroke="#9E9E9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 12L3.28998 7.11" stroke="#9E9E9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 12L20.71 7.11" stroke="#9E9E9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <img style="display: none;" src="" alt="Товар" />
+            </figure>
+          </div>
+
+          <div class="product-details__info">
+            <div class="product-details__header-group">
+              <h1 class="product-details__title">
+                Загрузка...
+              </h1>
+
+              <div class="product-details__category-block">
+                <span class="product-details__label">категории товара</span>
+                <div class="product-details__category-options">
+
+                  <div class="product-details__category-btn skeleton" style="border: none; pointer-events: none;"></div>
+                  <div class="product-details__category-btn skeleton" style="border: none; pointer-events: none;"></div>
+                  <div class="product-details__category-btn skeleton" style="border: none; pointer-events: none;"></div>
+                  <div class="product-details__category-btn skeleton" style="border: none; pointer-events: none;"></div>
+
+                </div>
+              </div>
+
+              <div class="product-details__period-block">
+                <span class="product-details__label">вариации товара</span>
+                <div class="product-details__period-options">
+                  <div class="product-details__period-btn skeleton" style="border: none; pointer-events: none;"></div>
+                  <div class="product-details__period-btn skeleton" style="border: none; pointer-events: none;"></div>
+                  <div class="product-details__period-btn skeleton" style="border: none; pointer-events: none;"></div>
+                  <div class="product-details__period-btn skeleton" style="border: none; pointer-events: none;"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-details__footer-group">
+              <div class="product-details__price">... ₽</div>
+
+              <div class="product-details__actions">
+                <button type="button" class="product-details__buy-btn">
+                  <span>купить</span>
+                </button>
+
+                <button
+                  type="button"
+                  class="product-details__fav-btn"
+                  aria-label="Добавить в избранное"
+                  data-product-id="current-product-id"
+                >
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!--
+        <section class="product-description">
+  <h2 class="product-description__title">описание</h2>
+
+  <div class="product-description__content">
+    <div class="product-description__text">
+      <p>Загрузка описания...</p>
+    </div>
+  </div>
+        </section>
+        -->
+
+        <!--
+        <section class="reviews">
+
+    <div class="reviews__histogram">
+      
+      <div class="reviews__chart-row">
+        <div class="reviews__chart-label">
+          <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+          <span>5</span>
+        </div>
+        <div class="reviews__bar-bg">
+          <div class="reviews__bar-fill" style="width: 106px;"></div>
+        </div>
+        <span class="reviews__row-count">25</span>
+      </div>
+
+      <div class="reviews__chart-row">
+        <div class="reviews__chart-label">
+          <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+          <span>4</span>
+        </div>
+        <div class="reviews__bar-bg">
+          <div class="reviews__bar-fill" style="width: 43px;"></div>
+        </div>
+        <span class="reviews__row-count">8</span>
+      </div>
+
+      <div class="reviews__chart-row">
+        <div class="reviews__chart-label">
+          <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+          <span>3</span>
+        </div>
+        <div class="reviews__bar-bg">
+          <div class="reviews__bar-fill" style="width: 26px;"></div>
+        </div>
+        <span class="reviews__row-count">2</span>
+      </div>
+
+      <div class="reviews__chart-row">
+        <div class="reviews__chart-label">
+          <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+          <span>2</span>
+        </div>
+        <div class="reviews__bar-bg">
+          <div class="reviews__bar-fill" style="width: 0px;"></div>
+        </div>
+        <span class="reviews__row-count">0</span>
+      </div>
+
+      <div class="reviews__chart-row">
+        <div class="reviews__chart-label">
+          <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+          <span>1</span>
+        </div>
+        <div class="reviews__bar-bg">
+          <div class="reviews__bar-fill" style="width: 0px;"></div>
+        </div>
+        <span class="reviews__row-count">0</span>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="reviews__content">
+    
+    <div class="reviews__filters">
+      <button type="button" class="reviews__filter-btn reviews__filter-btn--active">последние</button>
+      <button type="button" class="reviews__filter-btn">положительные</button>
+      <button type="button" class="reviews__filter-btn">отрицательные</button>
+    </div>
+
+    <div class="reviews__list">
+      
+      <article class="review-card">
+        <div class="review-card__header">
+          <div class="review-card__user-info">
+            <div class="review-card__avatar"></div>
+            <div class="review-card__meta">
+              <span class="review-card__name">Анастасия</span>
+              <div class="review-card__stars">
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+              </div>
+            </div>
+          </div>
+          <span class="review-card__time">1 неделя назад</span>
+        </div>
+        <div class="review-card__body">
+          <p class="review-card__text">Отличный продукт, полностью доволен!</p>
+        </div>
+      </article>
+
+      <article class="review-card">
+        <div class="review-card__header">
+          <div class="review-card__user-info">
+            <div class="review-card__avatar"></div>
+            <div class="review-card__meta">
+              <span class="review-card__name">Иван</span>
+              <div class="review-card__stars">
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+                <svg class="icon-star"><use href="#icon-star-empty"></use></svg>
+              </div>
+            </div>
+          </div>
+          <span class="review-card__time">3 дня назад</span>
+        </div>
+        <div class="review-card__body">
+          <p class="review-card__text">Качество на высоте, доставили быстро.</p>
+        </div>
+      </article>
+
+      <article class="review-card">
+        <div class="review-card__header">
+          <div class="review-card__user-info">
+            <div class="review-card__avatar"></div>
+            <div class="review-card__meta">
+              <span class="review-card__name">Ольга</span>
+              <div class="review-card__stars">
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+              </div>
+            </div>
+          </div>
+          <span class="review-card__time">5 дней назад</span>
+        </div>
+        <div class="review-card__body">
+          <p class="review-card__text">Хороший, но цена немного завышена.</p>
+        </div>
+      </article>
+
+      <article class="review-card">
+        <div class="review-card__header">
+          <div class="review-card__user-info">
+            <div class="review-card__avatar"></div>
+            <div class="review-card__meta">
+              <span class="review-card__name">Сергей</span>
+              <div class="review-card__stars">
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+                <svg class="icon-star"><use href="#icon-star-black"></use></svg>
+              </div>
+            </div>
+          </div>
+          <span class="review-card__time">2 недели назад</span>
+        </div>
+        <div class="review-card__body">
+          <p class="review-card__text">Не совсем соответствует описанию.</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <svg style="display: none;">
+    <symbol id="icon-star-black" viewBox="0 0 17 16" fill="none">
+      <path d="M3.22299 15.4349C3.03312 15.2865 2.91742 15.0967 2.87589 14.8652C2.83435 14.6279 2.86699 14.355 2.97379 14.0464L4.3711 9.89899L0.811064 7.34467C0.544061 7.16073 0.354192 6.96196 0.241458 6.74836C0.134657 6.53476 0.119823 6.30929 0.196957 6.07195C0.274092 5.84648 0.41946 5.68035 0.633062 5.57355C0.846665 5.46674 1.11663 5.41334 1.44297 5.41334L5.80402 5.44894L7.13013 1.2748C7.23694 0.960328 7.3734 0.720025 7.53954 0.55389C7.70567 0.387755 7.91038 0.304688 8.15365 0.304688C8.39098 0.304688 8.59272 0.387755 8.75885 0.55389C8.93092 0.720025 9.06739 0.960328 9.16826 1.2748L10.4944 5.44894L14.8554 5.41334C15.1877 5.41334 15.4577 5.46674 15.6653 5.57355C15.8789 5.68035 16.0243 5.84945 16.1014 6.08085C16.1786 6.31225 16.1608 6.53476 16.048 6.74836C15.9412 6.96196 15.7543 7.16073 15.4873 7.34467L11.9273 9.89899L13.3246 14.0464C13.4314 14.355 13.464 14.6279 13.4225 14.8652C13.3869 15.0967 13.2742 15.2865 13.0843 15.4349C12.8885 15.5832 12.6719 15.6366 12.4346 15.5951C12.1973 15.5535 11.9451 15.4349 11.6781 15.2391L8.15365 12.6491L4.62031 15.2391C4.35924 15.4349 4.11003 15.5535 3.8727 15.5951C3.63536 15.6366 3.41879 15.5832 3.22299 15.4349Z" fill="black"/>
+    </symbol>
+    <symbol id="icon-star-empty" viewBox="0 0 17 16" fill="none">
+        <path d="M3.22299 15.4349C3.03312 15.2865 2.91742 15.0967 2.87589 14.8652C2.83435 14.6279 2.86699 14.355 2.97379 14.0464L4.3711 9.89899L0.811064 7.34467C0.544061 7.16073 0.354192 6.96196 0.241458 6.74836C0.134657 6.53476 0.119823 6.30929 0.196957 6.07195C0.274092 5.84648 0.41946 5.68035 0.633062 5.57355C0.846665 5.46674 1.11663 5.41334 1.44297 5.41334L5.80402 5.44894L7.13013 1.2748C7.23694 0.960328 7.3734 0.720025 7.53954 0.55389C7.70567 0.387755 7.91038 0.304688 8.15365 0.304688C8.39098 0.304688 8.59272 0.387755 8.75885 0.55389C8.93092 0.720025 9.06739 0.960328 9.16826 1.2748L10.4944 5.44894L14.8554 5.41334C15.1877 5.41334 15.4577 5.46674 15.6653 5.57355C15.8789 5.68035 16.0243 5.84945 16.1014 6.08085C16.1786 6.31225 16.1608 6.53476 16.048 6.74836C15.9412 6.96196 15.7543 7.16073 15.4873 7.34467L11.9273 9.89899L13.3246 14.0464C13.4314 14.355 13.464 14.6279 13.4225 14.8652C13.3869 15.0967 13.2742 15.2865 13.0843 15.4349C12.8885 15.5832 12.6719 15.6366 12.4346 15.5951C12.1973 15.5535 11.9451 15.4349 11.6781 15.2391L8.15365 12.6491L4.62031 15.2391C4.35924 15.4349 4.11003 15.5535 3.8727 15.5951C3.63536 15.6366 3.41879 15.5832 3.22299 15.4349ZM4.74491 13.3344C4.75677 13.3463 4.77458 13.3433 4.79831 13.3255L7.67304 11.0738C7.85104 10.9373 8.01124 10.8691 8.15365 10.8691C8.30198 10.8691 8.46218 10.9373 8.63425 11.0738L11.509 13.3255C11.5327 13.3433 11.5476 13.3463 11.5535 13.3344C11.5594 13.3226 11.5594 13.3048 11.5535 13.281L10.3075 9.85449C10.2363 9.64682 10.2155 9.47772 10.2452 9.34719C10.2808 9.21665 10.3935 9.08612 10.5834 8.95558L13.6183 6.91746C13.6361 6.89966 13.645 6.88483 13.645 6.87296C13.6391 6.86109 13.6213 6.85516 13.5916 6.85516L9.95147 6.97086C9.726 6.97679 9.5569 6.94416 9.44416 6.87296C9.33143 6.79583 9.24242 6.65046 9.17716 6.43686L8.18035 2.93022C8.17441 2.90055 8.16551 2.88572 8.15365 2.88572C8.13585 2.88572 8.12398 2.90055 8.11805 2.93022L7.12123 6.43686C7.0619 6.65046 6.9729 6.79583 6.85423 6.87296C6.7415 6.94416 6.57536 6.97679 6.35583 6.97086L2.71569 6.85516C2.68602 6.85516 2.66822 6.86109 2.66228 6.87296C2.65635 6.89076 2.66525 6.90559 2.68899 6.91746L5.71502 8.95558C5.91675 9.08612 6.03246 9.21665 6.06212 9.34719C6.09179 9.47772 6.07102 9.64682 5.99982 9.85449L4.74491 13.281C4.73897 13.3048 4.73897 13.3226 4.74491 13.3344Z" fill="#D2D2D2"/>
+    </symbol>
+  </svg>
+        </section>
+        -->
+
+      </main>
+
+      <!-- === PAYMENT MODAL START === -->
+      <div class="modal-overlay" id="paymentOverlay">
+        <div class="payment-modal" id="paymentMainModal">
+          <div class="pm-header">
+            <div class="pm-title">Оплата</div>
+            <button class="pm-close-btn" id="pmCloseBtn" aria-label="Закрыть">
+              <svg
+                width="21"
+                height="21"
+                viewBox="0 0 21 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.46582 5.21875L10.501 9.25391L14.5361 5.21875H17.6748L12.0703 10.8232L17.0254 15.7783H13.8877L10.501 12.3916L7.11523 15.7783H3.97754L8.93262 10.8232L3.32812 5.21875H6.46582Z"
+                  fill="black"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="pm-amount" id="modal_total_price">0 ₽</div>
+
+          <div class="pm-methods-section">
+            <div class="pm-label">способ</div>
+            <div class="pm-tabs">
+              <button class="pm-tab-btn active" data-method="card">
+                карта
+              </button>
+              <button class="pm-tab-btn" data-method="sbp">сбп</button>
+              <button class="pm-tab-btn" data-method="wallet">кошелёк</button>
+            </div>
+          </div>
+
+          <div class="pm-card-fields" id="cardFields">
+            <div class="pm-input-wrapper">
+              <label class="pm-input-label">НОМЕР КАРТЫ</label>
+              <input
+                type="text"
+                class="pm-input"
+                placeholder="0000 0000 0000 0000"
+              />
+            </div>
+
+            <div class="pm-row">
+              <div class="pm-input-wrapper">
+                <label class="pm-input-label">срок действия (месяц/год)</label>
+                <input type="text" class="pm-input" placeholder="01/27" />
+              </div>
+              <div class="pm-input-wrapper">
+                <label class="pm-input-label">CVV/CVC-код</label>
+                <input type="text" class="pm-input" placeholder="001" />
+              </div>
+            </div>
+
+            <div class="pm-input-wrapper">
+              <label class="pm-input-label">владелец</label>
+              <input type="text" class="pm-input" placeholder="Фамилия имя" />
+            </div>
+          </div>
+
+          <div class="pm-footer">
+            <button class="pm-pay-btn">оплатить</button>
+          </div>
+        </div>
+
+        <!-- === AUTH REQUIRED MODAL START === -->
+        <div class="payment-modal auth-required-modal" id="authRequiredModal" style="display: none;">
+          <div class="auth-req-header">
+            <div class="auth-req-title">Требуется авторизация</div>
+          </div>
+          <div class="auth-req-body">
+            <p class="auth-req-text">Для выполнения этого действия необходимо<br>войти в аккаунт.</p>
+          </div>
+          <div class="auth-req-actions">
+            <button class="auth-req-btn auth-req-btn--outline" id="authReqCancel">отмена</button>
+            <a href="/pages/authorization.html" class="auth-req-btn auth-req-btn--filled">войти</a>
+          </div>
+        </div>
+        <!-- === AUTH REQUIRED MODAL END === -->
+      </div>
+      <!-- === PAYMENT MODAL END === -->
+
+      <!-- === CAPTCHA MODAL START === -->
+      <div id="captchaOverlay" class="captcha-overlay">
+        <div class="captcha-box">
+          <div id="recaptcha"></div>
+        </div>
+      </div>
+      <!-- === CAPTCHA MODAL END === -->
+    </div>
+
+    @@include('partials/footer.html')
+
+    <script src="/js/toggleFavorite.js"></script>
+    <script src="/js/updateNav.js"></script>
+    <script src="/js/backButton.js"></script>
+    <script src="/js/formatVariantName.js"></script>
+    <script src="/js/nominalNormalize.js"></script>
+    <script src="/js/compactVariantLabel.js?v=2"></script>
+    <script src="/js/localizeCategoryRu.js?v=2"></script>
+    <script src="/js/product-page.js?v=3"></script>
+    <script src="/js/modal.js"></script>
+    <script src="/js/product-payment.js"></script>
+    <script type="module" src="/js/homeSearch.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=initRecaptcha&render=explicit" async defer></script>
+
+  </body>
+</html>

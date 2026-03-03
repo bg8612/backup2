@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    @@include('partials/head.html')
+    <title>
+      AxoShop — Магазин цифровых товаров | Донат в игры, Пополнение Steam
+    </title>
+  </head>
+  <body>
+    <div class="content-area">
+      @@include('partials/nav.html')
+
+      <main>
+        <div class="modal-overlay" id="paymentOverlay">
+          <div class="payment-modal">
+            <div class="pm-header">
+              <div class="pm-title">Оплата</div>
+              <button class="pm-close-btn" id="pmCloseBtn" aria-label="Закрыть">
+                <svg
+                  width="21"
+                  height="21"
+                  viewBox="0 0 21 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.46582 5.21875L10.501 9.25391L14.5361 5.21875H17.6748L12.0703 10.8232L17.0254 15.7783H13.8877L10.501 12.3916L7.11523 15.7783H3.97754L8.93262 10.8232L3.32812 5.21875H6.46582Z"
+                    fill="black"
+                  />
+                </svg>
+              </button>
+            </div>
+
+            <div class="pm-amount">590 ₽</div>
+
+            <div class="pm-methods-section">
+              <div class="pm-label">способ</div>
+              <div class="pm-tabs">
+                <button class="pm-tab-btn active" data-method="card">
+                  карта
+                </button>
+                <button class="pm-tab-btn" data-method="sbp">сбп</button>
+                <button class="pm-tab-btn" data-method="wallet">кошелёк</button>
+                <button class="pm-tab-btn" data-method="crypto">крипта</button>
+              </div>
+            </div>
+
+            <div class="pm-card-fields" id="cardFields">
+              <div class="pm-input-wrapper">
+                <label class="pm-input-label">НОМЕР КАРТЫ</label>
+                <input
+                  type="text"
+                  class="pm-input"
+                  placeholder="0000 0000 0000 0000"
+                />
+              </div>
+
+              <div class="pm-row">
+                <div class="pm-input-wrapper">
+                  <label class="pm-input-label"
+                    >срок действия (месяц/год)</label
+                  >
+                  <input type="text" class="pm-input" placeholder="01/27" />
+                </div>
+                <div class="pm-input-wrapper">
+                  <label class="pm-input-label">CVV/CVC-код</label>
+                  <input type="text" class="pm-input" placeholder="001" />
+                </div>
+              </div>
+
+              <div class="pm-input-wrapper">
+                <label class="pm-input-label">владелец</label>
+                <input type="text" class="pm-input" placeholder="Фамилия имя" />
+              </div>
+            </div>
+
+            <div class="pm-footer">
+              <button class="pm-pay-btn">оплатить</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    @@include('partials/footer.html')
+
+
+    <script src="/js/updateNav.js"></script>
+    <script src="/js/products.js"></script>
+    <script src="/js/payments.js"></script>
+  </body>
+</html>

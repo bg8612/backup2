@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    @@include('partials/head.html')
+    <title>
+      AxoShop — Магазин цифровых товаров | Донат в игры, Пополнение Steam
+    </title>
+  </head>
+  <body>
+    <div class="content-area">
+      @@include('partials/nav.html')
+
+    <main>
+   <div class="profile-container">
+
+  <nav class="profile-nav" aria-label="Меню профиля">
+    <button type="button" class="profile-nav__item profile-nav__item--active" data-target="orders-list-view">
+      история покупок
+    </button>
+    <button type="button" class="profile-nav__item" data-target="wallet-view">
+      кошелек
+    </button>
+    <button type="button" class="profile-nav__item" data-target="favorites-view">
+      избранное
+    </button>
+    <button type="button" class="profile-nav__item" data-target="settings-view">
+      настройки профиля
+    </button>
+  </nav>
+
+  <div class="profile-content-area">
+
+    <section id="orders-list-view" class="view-section active">
+      <div class="orders-grid">
+
+        <article class="order-card">
+          <div class="order-card__header">
+            <div class="order-card__info">
+              <div class="order-card__status order-card__status--processing">
+                <span>В обработке</span>
+              </div>
+              <div class="order-card__text">
+                <span class="order-card__id">Заказ №3040890003</span>
+                <h2 class="order-card__title">Рисовка скина</h2>
+              </div>
+            </div>
+            <div class="order-card__image-placeholder"></div>
+          </div>
+          <div class="order-card__actions">
+            <button class="btn btn--primary js-open-details">подробнее</button>
+            <button class="btn btn--outline">пожаловаться</button>
+          </div>
+        </article>
+
+        <article class="order-card">
+          <div class="order-card__header">
+            <div class="order-card__info">
+              <div class="order-card__status order-card__status--cancelled">
+                <span>Отменен</span>
+              </div>
+              <div class="order-card__text">
+                <span class="order-card__id">Заказ №3040890003</span>
+                <h2 class="order-card__title">Дизайн интерфейса</h2>
+              </div>
+            </div>
+            <div class="order-card__image-placeholder"></div>
+          </div>
+          <div class="order-card__actions">
+            <button class="btn btn--primary js-open-details">подробнее</button>
+            <button class="btn btn--outline">пожаловаться</button>
+          </div>
+        </article>
+
+        <article class="order-card">
+          <div class="order-card__header">
+            <div class="order-card__info">
+              <div class="order-card__status order-card__status--success">
+                <span>Успешно</span>
+              </div>
+              <div class="order-card__text">
+                <span class="order-card__id">Заказ №3040890003</span>
+                <h2 class="order-card__title">Обновление системы</h2>
+              </div>
+            </div>
+            <div class="order-card__image-placeholder"></div>
+          </div>
+          <div class="order-card__actions">
+            <button class="btn btn--primary js-open-details">подробнее</button>
+            <button class="btn btn--outline">пожаловаться</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="order-details-view" class="view-section" hidden>
+      <div class="details-container">
+
+        <button type="button" class="back-button js-close-details" data-internal="true">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.61088 10.6663L7.80614 14.8616L6.86333 15.8044L1.05859 9.99967L6.86333 4.19494L7.80614 5.13775L3.61088 9.33301H16.0014V10.6663H3.61088Z" fill="black"/>
+          </svg>
+          <span>вернуться назад</span>
+        </button>
+
+        <h1 class="details-title">Заказ №3040890005</h1>
+
+        <div class="details-product-card">
+          <div class="details-product-card__inner">
+            <div class="details-product-image"></div>
+            <div class="details-product-info">
+              <div class="details-product-main">
+                <h2 class="details-product-name">рисовка скина</h2>
+                <span class="details-product-price">590,00 ₽</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="details-info-list">
+
+          <div class="details-row">
+            <div class="details-item">
+              <span class="details-label">дата оформления</span>
+              <span class="details-value">12 июля, в 18:48</span>
+            </div>
+            <div class="details-item">
+              <span class="details-label">исполнитель</span>
+              <span class="details-value">AxoGroup</span>
+            </div>
+          </div>
+
+          <div class="details-row">
+            <div class="details-item">
+              <span class="details-label">оплата</span>
+              <span class="details-value">банковской картой</span>
+            </div>
+            <div class="details-item">
+              <span class="details-label">стоимость услуги</span>
+              <span class="details-value">590,00 ₽</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="details-product-delivery">
+          <div class="details-delivery-field">
+            <div class="details-delivery-content">
+              <div class="details-delivery-info">
+                <span class="details-delivery-label">Ваш товар:</span>
+                <span class="details-delivery-code">VK7JG-NPHTM-C97JM-9MPGT-3V66T</span>
+              </div>
+              <button class="details-delivery-copy" type="button" aria-label="Копировать">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.0013 14.0013V18.0013C14.0013 18.7377 13.4043 19.3346 12.668 19.3346H2.0013C1.26492 19.3346 0.667969 18.7377 0.667969 18.0013V7.33464C0.667969 6.59826 1.26492 6.0013 2.0013 6.0013H6.0013M6.0013 2.0013V12.668C6.0013 13.4043 6.59826 14.0013 7.33464 14.0013H18.0013C18.7377 14.0013 19.3346 13.4043 19.3346 12.668V2.0013C19.3346 1.26492 18.7377 0.667969 18.0013 0.667969H7.33464C6.59826 0.667969 6.0013 1.26492 6.0013 2.0013Z" stroke="black" stroke-width="1.33333"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="details-actions">
+          <button class="btn btn--primary btn--full js-go-home">на главную</button>
+          <button class="btn btn--outline btn--full">пожаловаться</button>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="wallet-view" class="view-section" hidden>
+      <div class="wallet-container">
+
+        <div class="wallet-sidebar">
+
+          <div class="wallet-stack">
+            <div class="wallet-card-frozen">
+              <div class="wallet-card-bonus">
+                <span>Бонусы</span>
+                <span class="wallet-card-bonus__amount"><img src="/assets/img/icon-bonus.png" alt=""></span>
+              </div>
+            </div>
+
+            <div class="wallet-card-main">
+              <div class="wallet-card-header">
+                <span class="wallet-label">кошелёк</span>
+              </div>
+
+              <div class="wallet-balance-block">
+                <span class="wallet-balance"></span>
+                <div class="wallet-actions">
+                  <button type="button" class="btn btn--black btn--small js-wallet-topup">пополнить</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="#" class="wallet-support-btn">техподдержка</a>
+
+        </div>
+
+        <div class="wallet-content">
+          <h1 class="wallet-title">транзакции</h1>
+
+          <div class="transactions-list">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="favorites-view" class="view-section" hidden>
+      <div class="favorites-container">
+        <section class="products-section profile-products-section">
+          <div class="section-header">
+            <h2>избранные товары</h2>
+          </div>
+          <div class="products-grid" id="fav-products-grid">
+            <div class="product-card">
+              <div class="card-image-wrapper skeleton"></div>
+              <div class="card-info">
+                <div class="card-price skeleton skeleton-text" style="width: 40%; height: 24px; margin-bottom: 5px;"></div>
+                <div class="card-title skeleton skeleton-text" style="width: 90%; height: 16px; margin-bottom: 5px;"></div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="card-image-wrapper skeleton"></div>
+              <div class="card-info">
+                <div class="card-price skeleton skeleton-text" style="width: 40%; height: 24px; margin-bottom: 5px;"></div>
+                <div class="card-title skeleton skeleton-text" style="width: 90%; height: 16px; margin-bottom: 5px;"></div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="card-image-wrapper skeleton"></div>
+              <div class="card-info">
+                <div class="card-price skeleton skeleton-text" style="width: 40%; height: 24px; margin-bottom: 5px;"></div>
+                <div class="card-title skeleton skeleton-text" style="width: 90%; height: 16px; margin-bottom: 5px;"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="products-section profile-products-section">
+          <div class="section-header">
+            <h2>избранные категории</h2>
+          </div>
+          <div class="products-grid" id="fav-categories-grid">
+            <div class="product-card category-card">
+              <div class="card-image-wrapper skeleton"></div>
+              <div class="card-info">
+                <div class="card-title skeleton skeleton-text" style="width: 70%; height: 20px;"></div>
+              </div>
+            </div>
+            <div class="product-card category-card">
+              <div class="card-image-wrapper skeleton"></div>
+              <div class="card-info">
+                <div class="card-title skeleton skeleton-text" style="width: 70%; height: 20px;"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section id="settings-view" class="view-section" hidden>
+      <div class="settings-container">
+
+        <h1 class="settings-title">личные данные</h1>
+
+        <div class="settings-layout">
+
+          <div class="settings-profile-block">
+
+            <div class="settings-profile-content">
+              <div class="settings-avatar-container">
+                <div class="settings-avatar-image"></div>
+
+                <button type="button" class="settings-avatar-edit">
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.5 1V14M1 7.5H14" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="settings-text-info">
+                <h2 class="settings-name">Абоба Зилибоба</h2>
+                <p class="settings-email">begarit-team1@mail.com</p>
+
+                <div class="settings-actions-row">
+                  <button class="btn btn--outline settings-logout-btn">выйти</button>
+                  <button class="btn btn--black settings-telegram-btn">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.87995 5.51287L5.87247 8.52034C5.20824 9.18457 5.20824 10.2615 5.87247 10.9257C6.5367 11.59 7.61363 11.59 8.27786 10.9257L12.2481 6.95551C13.5765 5.62705 13.5765 3.47319 12.2481 2.14473C10.9196 0.81627 8.76576 0.81627 7.4373 2.14473L2.94547 6.63656C1.17419 8.40784 1.17419 11.2797 2.94547 13.0509C4.71675 14.8222 7.58856 14.8222 9.35984 13.0509L12.8889 9.52185" stroke="white" stroke-width="1.6896"/>
+                    </svg>
+                    <span>телеграм</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="settings-form-block">
+
+            <div class="settings-input-wrapper">
+              <label for="display-name" class="settings-input-label">отображаемое имя</label>
+              <input id="display-name" type="text" class="settings-input-field" value="roberteeen">
+            </div>
+
+            <div class="settings-actions-bar">
+              <p class="settings-action-label">аватарка</p>
+              <div class="settings-actions-group">
+                <button class="btn btn--black settings-save-btn">изменить</button>
+              </div>
+            </div>
+
+            <div class="settings-toggle-bar">
+              <span class="settings-toggle-text">скрыть отображаемое имя</span>
+
+              <label class="settings-switch">
+                <input type="checkbox">
+                <span class="settings-slider"></span>
+              </label>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+    </main>
+
+    <div class="modal-overlay" id="walletTopupOverlay">
+      <div class="payment-modal wallet-modal" id="walletTopupModal">
+        <div class="pm-header">
+          <div class="pm-title">пополнение</div>
+          <button class="pm-close-btn" id="walletTopupCloseBtn" aria-label="Закрыть">
+            <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.46582 5.21875L10.501 9.25391L14.5361 5.21875H17.6748L12.0703 10.8232L17.0254 15.7783H13.8877L10.501 12.3916L7.11523 15.7783H3.97754L8.93262 10.8232L3.32812 5.21875H6.46582Z" fill="black"/>
+            </svg>
+          </button>
+        </div>
+
+        <div class="pm-input-wrapper">
+          <label class="pm-input-label">сумма</label>
+          <input type="number" class="pm-input" placeholder="100" id="walletTopupAmount">
+          <span class="input-error-message">Минимальная сумма пополнения — 100 ₽</span>
+        </div>
+
+        <div class="pm-methods-section">
+          <div class="pm-label">способ</div>
+          <div class="pm-tabs">
+            <button class="pm-tab-btn active" data-method="card">карта</button>
+            <button class="pm-tab-btn" data-method="sbp">сбп</button>
+          </div>
+        </div>
+
+        <div class="pm-footer">
+          <button class="pm-pay-btn" id="walletTopupPayBtn">оплатить</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-overlay" id="paymentOverlay">
+      <div class="payment-modal auth-required-modal" id="authRequiredModal" style="display: none;">
+        <div class="auth-req-header">
+          <div class="auth-req-title">Требуется авторизация</div>
+        </div>
+        <div class="auth-req-body">
+          <p class="auth-req-text">Для выполнения этого действия необходимо<br>войти в аккаунт.</p>
+        </div>
+        <div class="auth-req-actions">
+          <button class="auth-req-btn auth-req-btn--outline" id="authReqCancel">отмена</button>
+          <a href="/pages/authorization.html" class="auth-req-btn auth-req-btn--filled">войти</a>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    @@include('partials/footer.html')
+
+    <script src="/js/spoiler.js"></script>
+    <script src="/js/toggleFavorite.js"></script>
+    <script src="/js/modal.js"></script>
+    <script src="/js/profile.js"></script>
+    <script src="/js/updateNav.js"></script>
+  </body>
+</html>

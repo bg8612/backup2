@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    @@include('partials/head.html')
+    <title>
+      AxoShop — Магазин цифровых товаров | Донат в игры, Пополнение Steam
+    </title>
+  </head>
+  <body>
+    <div class="content-area">
+      @@include('partials/nav.html')
+
+      <main class="notfound" role="main" aria-label="Страница не найдена">
+        <div class="notfound__bg" aria-hidden="true">
+          <span>404</span>
+        </div>
+
+        <div class="notfound__content">
+          <p class="notfound__text">
+            Страница, на которую вы пытаетесь перейти, <b>не существует</b>
+          </p>
+          <p class="notfound__text">
+            Если вы считаете, что здесь должна быть другая страница
+            <a class="notfound__support" href="/pages/support.html"
+              >свяжитесь с поддержкой</a
+            >
+          </p>
+        </div>
+      </main>
+    </div>
+
+    <div class="modal-overlay" id="paymentOverlay">
+      <div class="payment-modal auth-required-modal" id="authRequiredModal" style="display: none;">
+        <div class="auth-req-header">
+          <div class="auth-req-title">Требуется авторизация</div>
+        </div>
+        <div class="auth-req-body">
+          <p class="auth-req-text">Для выполнения этого действия необходимо<br>войти в аккаунт.</p>
+        </div>
+        <div class="auth-req-actions">
+          <button class="auth-req-btn auth-req-btn--outline" id="authReqCancel">отмена</button>
+          <a href="/pages/authorization.html" class="auth-req-btn auth-req-btn--filled">войти</a>
+        </div>
+      </div>
+    </div>
+
+    @@include('partials/footer.html')
+
+    <script src="/js/toggleFavorite.js"></script>
+    <script src="/js/updateNav.js"></script>
+    <script src="/js/modal.js"></script>
+    <script src="/js/products.js"></script>
+  </body>
+</html>

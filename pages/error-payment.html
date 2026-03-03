@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    @@include('partials/head.html')
+    <title>AxoShop — Ошибка оплаты</title>
+    <meta
+      name="description"
+      content="Оплата не прошла. Повторите попытку или выберите другой способ оплаты."
+    />
+  </head>
+
+  <body>
+    <div class="content-area">
+      @@include('partials/nav.html')
+
+      <main>
+        <div class="tx-modal" aria-labelledby="payment-error-title">
+          <div class="tx-modal__header">
+            <h1 class="tx-modal__title" id="payment-error-title">оплата не прошла</h1>
+
+            
+            <a class="tx-modal__icon-close" href="/pages/profile.html?tab=orders-list-view" aria-label="Закрыть">
+              <svg viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M6.46582 5.21875L10.501 9.25391L14.5361 5.21875H17.6748L12.0703 10.8232L17.0254 15.7783H13.8877L10.501 12.3916L7.11523 15.7783H3.97754L8.93262 10.8232L3.32812 5.21875H6.46582Z" fill="black"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="tx-modal__details tx-modal__details--row">
+            <div class="tx-modal__detail-item">
+              <div class="tx-modal__label">причина</div>
+              <div class="tx-modal__value">Банк отклонил операцию. Возможно, не хватает средств или неверно введены данные.</div>
+            </div>
+            <div class="tx-modal__status-icon-wrapper">
+              <div class="tx-modal__status-icon">
+                <!-- Иконка ошибки в стиле проекта -->
+                <svg viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22.5 0C10.07 0 0 10.07 0 22.5C0 34.93 10.07 45 22.5 45C34.93 45 45 34.93 45 22.5C45 10.07 34.93 0 22.5 0ZM33.75 30.5L30.5 33.75L22.5 25.75L14.5 33.75L11.25 30.5L19.25 22.5L11.25 14.5L14.5 11.25L22.5 19.25L30.5 11.25L33.75 14.5L25.75 22.5L33.75 30.5Z" fill="#FF3B30"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="tx-modal__actions">
+            <a class="tx-modal__btn tx-modal__btn--outline" href="/pages/profile.html?tab=orders-list-view">
+              к заказам
+            </a>
+            <a class="tx-modal__btn tx-modal__btn--filled" href="/pages/cart.html">
+              повторить оплату
+            </a>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    @@include('partials/footer.html')
+
+  </body>
+</html>

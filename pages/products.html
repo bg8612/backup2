@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    @@include('partials/head.html')
+    <title>
+      AxoShop — Магазин цифровых товаров | Донат в игры, Пополнение Steam
+    </title>
+  </head>
+  <body>
+    <div class="content-area">
+      @@include('partials/nav.html')
+
+      <main>
+        <button type="button" class="back-button" style="margin-bottom: 20px;">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.61088 10.6663L7.80614 14.8616L6.86333 15.8044L1.05859 9.99967L6.86333 4.19494L7.80614 5.13775L3.61088 9.33301H16.0014V10.6663H3.61088Z" fill="black"/>
+          </svg>
+          <span>вернуться назад</span>
+        </button>
+        <section class="products-section">
+          <div class="section-header">
+            <h2 id="category-title">Загрузка...</h2>
+          </div>
+          <div class="products-grid" id="products-container"></div>
+        </section>
+      </main>
+
+    </div>
+
+    <div class="modal-overlay" id="paymentOverlay">
+      <div class="payment-modal auth-required-modal" id="authRequiredModal" style="display: none;">
+        <div class="auth-req-header">
+          <div class="auth-req-title">Требуется авторизация</div>
+        </div>
+        <div class="auth-req-body">
+          <p class="auth-req-text">Для выполнения этого действия необходимо<br>войти в аккаунт.</p>
+        </div>
+        <div class="auth-req-actions">
+          <button class="auth-req-btn auth-req-btn--outline" id="authReqCancel">отмена</button>
+          <a href="/pages/authorization.html" class="auth-req-btn auth-req-btn--filled">войти</a>
+        </div>
+      </div>
+    </div>
+
+    @@include('partials/footer.html')
+
+    <script src="/js/toggleFavorite.js"></script>
+    <script src="/js/modal.js"></script>
+    <script src="/js/updateNav.js"></script>
+    <script src="/js/backButton.js"></script>
+    <script src="/js/products.js"></script>
+  </body>
+</html>

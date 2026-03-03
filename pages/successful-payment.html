@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    @@include('partials/head.html')
+    <title>
+      AxoShop — Магазин цифровых товаров | Донат в игры, Пополнение Steam
+    </title>
+  </head>
+
+  <body>
+    <div class="content-area">
+      @@include('partials/nav.html')
+
+      <main>
+        <div class="tx-modal">
+          <div class="tx-modal__header">
+            <h1 class="tx-modal__title" id="tx-main-title">Заказ в процессе</h1>
+            <div class="tx-modal__icon-close">
+              <svg
+                viewBox="0 0 21 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.46582 5.21875L10.501 9.25391L14.5361 5.21875H17.6748L12.0703 10.8232L17.0254 15.7783H13.8877L10.501 12.3916L7.11523 15.7783H3.97754L8.93262 10.8232L3.32812 5.21875H6.46582Z"
+                  fill="black"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <div class="tx-modal__price-row">
+            <div class="tx-modal__amount" id="tx-amount">... ₽</div>
+            <div class="tx-modal__status-icon-wrapper">
+              <div class="tx-modal__status-icon" id="tx-status-icon">
+                <svg
+                  viewBox="0 0 45 45"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22.5 0C10.07 0 0 10.07 0 22.5C0 34.93 10.07 45 22.5 45C34.93 45 45 34.93 45 22.5C45 10.07 34.93 0 22.5 0ZM22.5 40.5C12.56 40.5 4.5 32.44 4.5 22.5C4.5 12.56 12.56 4.5 22.5 4.5C32.44 4.5 40.5 12.56 40.5 22.5C40.5 32.44 32.44 40.5 22.5 40.5ZM23.62 13.5H20.25V24.75L30.09 30.66L31.78 27.84L23.62 22.95V13.5Z"
+                    fill="#FF9500"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="tx-modal__details">
+            <div class="tx-modal__detail-item">
+              <div class="tx-modal__label">наименование транзакции</div>
+              <div class="tx-modal__value" id="tx-title">Загрузка...</div>
+            </div>
+
+            <div class="tx-modal__detail-item">
+              <div class="tx-modal__label">дата оформления</div>
+              <div class="tx-modal__value" id="tx-date">...</div>
+            </div>
+
+            <div class="tx-modal__detail-item">
+              <div class="tx-modal__label">исполнитель</div>
+              <div class="tx-modal__value" id="tx-executor">...</div>
+            </div>
+
+            <div class="tx-modal__detail-item">
+              <div class="tx-modal__label">оплата</div>
+              <div class="tx-modal__value" id="tx-method">...</div>
+            </div>
+          </div>
+
+          <div class="tx-modal__actions">
+            <button class="tx-modal__btn tx-modal__btn--outline">
+              техподдержка
+            </button>
+            <button class="tx-modal__btn tx-modal__btn--filled tx-modal__btn--hidden">
+              оставить отзыв
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    @@include('partials/footer.html')
+
+
+    <script src="/js/updateNav.js"></script>
+    <script src="/js/successfulpayment.js"></script>
+    <script src="/js/payments.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    @@include('partials/head.html')
+    <title>
+      AxoShop — Магазин цифровых товаров | Донат в игры, Пополнение Steam
+    </title>
+  </head>
+  <body>
+    <div class="content-area">
+      @@include('partials/nav.html')
+
+      <section class="products-section">
+        <div class="section-header catalog-header">
+          <h2>Каталог категорий<span></span></h2>
+        </div>
+
+        <div id="catalog-categories-list" class="categories-grid"></div>
+      </section>
+
+    </div>
+
+    <div class="modal-overlay" id="paymentOverlay">
+      <div class="payment-modal auth-required-modal" id="authRequiredModal" style="display: none;">
+        <div class="auth-req-header">
+          <div class="auth-req-title">Требуется авторизация</div>
+        </div>
+        <div class="auth-req-body">
+          <p class="auth-req-text">Для выполнения этого действия необходимо<br>войти в аккаунт.</p>
+        </div>
+        <div class="auth-req-actions">
+          <button class="auth-req-btn auth-req-btn--outline" id="authReqCancel">отмена</button>
+          <a href="/pages/authorization.html" class="auth-req-btn auth-req-btn--filled">войти</a>
+        </div>
+      </div>
+    </div>
+
+    @@include('partials/footer.html')
+
+    <script src="/js/toggleFavorite.js"></script>
+    <script src="/js/modal.js"></script>
+    <script src="/js/catalog.js"></script>
+    <script src="/js/updateNav.js"></script>
+    <script type="module" src="/js/homeSearch.js"></script>
+    <script type="module" src="/js/catalogSearch.js"></script>
+  </body>
+</html>
